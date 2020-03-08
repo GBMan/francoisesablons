@@ -1,0 +1,36 @@
+.App-footer {
+    background-color: $footer-bg;
+    color:$footer-txt;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+.App-footer--left {
+    align-self: start;
+    li {
+        margin-bottom: 5px;
+    }
+    li:last-of-type {
+        margin-bottom: 0px;
+    }
+}
+
+.App-footer--link {
+    color: $clear;
+    &:hover {
+        background-color: $second;
+    }
+}
+
+.App-footer--right {
+    align-self: end;
+    justify-self: end;
+    text-align: right;
+    li+li {
+        margin-top: 5px;
+    }
+}
+.App-footer--right-small {
+    font-size: 0.8em;
+}

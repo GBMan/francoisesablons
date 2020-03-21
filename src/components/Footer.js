@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Footer(props) {
     const { 
@@ -10,7 +10,7 @@ export default function Footer(props) {
         <footer className="App-footer">
             <ul className="App-footer--left">
                 {categories.map((categorie) => {
-                    return <li key={categorie.title}><a className="btn btn-link App-footer--link" href={categorie.route}>{categorie.title}</a></li>;
+                    return <li key={categorie.title}><Link to={categorie.route} className="btn btn-link App-footer--link">{categorie.title}</Link></li>;
                 })}
             </ul>
             <ul className="App-footer--right">

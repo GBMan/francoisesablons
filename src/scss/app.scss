@@ -6,7 +6,8 @@
 @import './header.scss';
 @import './footer.scss';
 @import './page-home.scss';
-@import './page-series.scss';
+@import './page-groupes.scss';
+@import './galerie.scss';
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -18,7 +19,7 @@ html {
 
 body {
   background-color: $app-bg;
-  font-family: 'Eurostile', 'Gotham rounded', sans-serif;
+  font-family: $font-eurostile, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;

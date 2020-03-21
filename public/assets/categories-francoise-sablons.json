@@ -6,6 +6,10 @@
       "title":"Peintures",
       "path160":"/assets/img/small/thumb_bracelet.jpg",
       "path320":"/assets/img/small/thumb_croix.jpg",
+      "thumbs":{
+          "path160":"/assets/img/small/thumb_bracelet.jpg",
+          "path320":"/assets/img/small/thumb_croix.jpg"
+      },
       "alt":"Croix en tissu représentant l'ensemble de la série des croix.",
       "images":[
         {
@@ -13,11 +17,28 @@
           "title":"Champignon martien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+          "path160":"/assets/img/small/thumb_160.jpg",
           "path320":"/assets/img/small/thumb_nounours.jpg",
           "path640":"/assets/img/small/thumb_poupee.jpg",
           "path960":"/assets/img/small/thumb_bracelet_2.jpg",
           "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
           "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+          "thumbs":{
+            "path160":"/assets/img/small/thumb_160.jpg",
+            "path320":"/assets/img/small/thumb_320.jpg",
+            "path640":"/assets/img/small/thumb_640.jpg",
+            "path960":"/assets/img/small/thumb_960.jpg",
+            "path1280":"/assets/img/small/thumb_1280.jpg",
+            "path1600":"/assets/img/small/thumb_1600.jpg"
+          },
+          "imgs":{
+            "path160":"/assets/img/small/thumb_160.jpg",
+            "path320":"/assets/img/small/thumb_320.jpg",
+            "path640":"/assets/img/small/thumb_640.jpg",
+            "path960":"/assets/img/small/thumb_960.jpg",
+            "path1280":"/assets/img/small/thumb_1280.jpg",
+            "path1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Croix en tissu blanche et bleue avec perles nacrées."
         },
         {
@@ -25,6 +46,7 @@
           "title":"Choux vénusien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+          "path160":"/assets/img/small/thumb_160.jpg",
           "path320":"/assets/img/small/thumb_bracelet_4.jpg",
           "path640":"/assets/img/small/thumb_nounours.jpg",
           "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -37,6 +59,7 @@
           "title":"Tarte jupitérienne",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+          "path160":"/assets/img/small/thumb_160.jpg",
           "path320":"/assets/img/small/thumb_bracelet_3.jpg",
           "path640":"/assets/img/small/thumb_bracelet_4.jpg",
           "path960":"/assets/img/small/thumb_nounours.jpg",
@@ -58,7 +81,7 @@
       "path1280":"/assets/img/small/thumb_1280.jpg",
       "path1600":"/assets/img/small/thumb_1600.jpg",
       "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
-      "series": [
+      "groupes": [
         {
           "id":99,
           "route":"/sculptures/sauvages",
@@ -77,6 +100,7 @@
               "title":"Renard radioactif",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_320.jpg",
               "path640":"/assets/img/small/thumb_640.jpg",
               "path960":"/assets/img/small/thumb_960.jpg",
@@ -89,6 +113,7 @@
               "title":"Baleine balerine",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_4.jpg",
               "path640":"/assets/img/small/thumb_nounours.jpg",
               "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -101,6 +126,7 @@
               "title":"Saumon sincère",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_3.jpg",
               "path640":"/assets/img/small/thumb_bracelet_4.jpg",
               "path960":"/assets/img/small/thumb_nounours.jpg",
@@ -128,6 +154,7 @@
               "title":"Lapin supersonique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_nounours.jpg",
               "path640":"/assets/img/small/thumb_poupee.jpg",
               "path960":"/assets/img/small/thumb_bracelet_2.jpg",
@@ -140,6 +167,7 @@
               "title":"Rat allergène",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_4.jpg",
               "path640":"/assets/img/small/thumb_nounours.jpg",
               "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -152,6 +180,7 @@
               "title":"Vautour électrique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_3.jpg",
               "path640":"/assets/img/small/thumb_bracelet_4.jpg",
               "path960":"/assets/img/small/thumb_nounours.jpg",
@@ -179,6 +208,7 @@
               "title":"Coq cocu",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_nounours.jpg",
               "path640":"/assets/img/small/thumb_poupee.jpg",
               "path960":"/assets/img/small/thumb_bracelet_2.jpg",
@@ -191,6 +221,7 @@
               "title":"Canard cancaneur",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_4.jpg",
               "path640":"/assets/img/small/thumb_nounours.jpg",
               "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -203,6 +234,7 @@
               "title":"Pigeon pyromane",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_3.jpg",
               "path640":"/assets/img/small/thumb_bracelet_4.jpg",
               "path960":"/assets/img/small/thumb_nounours.jpg",
@@ -222,7 +254,7 @@
       "path160":"/assets/img/small/thumb_bracelet.jpg",
       "path320":"/assets/img/small/thumb_bracelet.jpg",
       "alt":"Bracelet en tissu représentant l'ensemble de la série des bracelets.",
-      "series": [
+      "groupes": [
         {
           "id":97,
           "route":"/textiles/bracelets",
@@ -230,6 +262,10 @@
           "title":"Bracelets",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
+          "path640":"/assets/img/small/thumb_640.jpg",
+          "path960":"/assets/img/small/thumb_960.jpg",
+          "path1280":"/assets/img/small/thumb_1280.jpg",
+          "path1600":"/assets/img/small/thumb_1600.jpg",
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -237,6 +273,7 @@
               "title":"Camion aimable",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_nounours.jpg",
               "path640":"/assets/img/small/thumb_poupee.jpg",
               "path960":"/assets/img/small/thumb_bracelet_2.jpg",
@@ -249,6 +286,7 @@
               "title":"Moto colérique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_4.jpg",
               "path640":"/assets/img/small/thumb_nounours.jpg",
               "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -261,6 +299,7 @@
               "title":"Avion timide",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_3.jpg",
               "path640":"/assets/img/small/thumb_bracelet_4.jpg",
               "path960":"/assets/img/small/thumb_nounours.jpg",
@@ -277,6 +316,10 @@
           "title":"Croix",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
+          "path640":"/assets/img/small/thumb_640.jpg",
+          "path960":"/assets/img/small/thumb_960.jpg",
+          "path1280":"/assets/img/small/thumb_1280.jpg",
+          "path1600":"/assets/img/small/thumb_1600.jpg",
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -284,6 +327,7 @@
               "title":"Voiture vulgaire",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_nounours.jpg",
               "path640":"/assets/img/small/thumb_poupee.jpg",
               "path960":"/assets/img/small/thumb_bracelet_2.jpg",
@@ -296,6 +340,7 @@
               "title":"Hélicoptère élitiste",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_4.jpg",
               "path640":"/assets/img/small/thumb_nounours.jpg",
               "path960":"/assets/img/small/thumb_poupee.jpg",
@@ -308,6 +353,7 @@
               "title":"Bateau barbant",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "path160":"/assets/img/small/thumb_160.jpg",
               "path320":"/assets/img/small/thumb_bracelet_3.jpg",
               "path640":"/assets/img/small/thumb_bracelet_4.jpg",
               "path960":"/assets/img/small/thumb_nounours.jpg",

@@ -45,11 +45,15 @@ $main: #555;
 $second: #888;
 $clear: #eee;
 $dark: #222;
+$dark-90: rgba(34, 34, 34, 0.9); // rgb(34, 34, 34) = #222222 ($dark)
+$dark-60: rgba(34, 34, 34, 0.6); // rgb(34, 34, 34) = #222222 ($dark)
 
 // Couleurs zonées
 $default-txt: $main;
 
 $app-bg: $clear;
+
+$galerie-bg: $dark-90;
 
 $header-bg: $main;
 $header-txt: $clear;

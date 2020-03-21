@@ -20,7 +20,7 @@
         background-color: $second;
         color: $clear;
         .btn--img {
-            // transform:scale(1.2);
+            transform:scale(1.2);
         }
         .btn--categorie-img {
             width: calc((100vh - 110px) / 3);

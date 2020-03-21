@@ -21,6 +21,17 @@
     }
 }
 
+.btn--img-container {
+    background-color: $main;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        .btn--img {
+            background-color: $second;
+            transform:scale(1.2);
+        }
+    }
+}
 .btn--img {
     display: block;
     height: 100%;

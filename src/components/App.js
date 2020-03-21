@@ -5,10 +5,10 @@ import Header from './Header';
 import Footer from './Footer';
 import PageHome from './PageHome';
 import PageCategorieSelector from './PageCategorieSelector';
-// import datas from './DatasHolder';
+import datas from '../DatasHolder';
 // import PageSeries from './PageSeries';
 // import PageSerie from './PageSerie';
-
+import Galerie from './Galerie';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,25 +19,29 @@ import {
   // useParams
 } from "react-router-dom";
 
+export const CatalogueContext = React.createContext();
+
 function App() {
   console.log("### App");
   // const [loading, setLoading] = useState(true);
   // const [error, setError] = useState(false);
   const [categories, setCategories] = useState([]);
+  const [positionImageGalerie, setPositionImageGalerie] = useState(null);
+  const [imagesGalerie, setImagesGalerie] = useState(null);
   // let {location} = useLocation();
 
   useEffect(() => {
-    console.log("Launched");
     let cancel;
     axios(
       {
           method: 'GET',
-          url:'http://localhost:3000/assets/categories-francoise-sablons.json', 
+          url: 'http://localhost:3000/assets/categories-francoise-sablons.json'
       }
     )
     .then((response) => {
-      setCategories((prevCategories) => {return response.data});
-      console.log("Loaded");
+      console.log("%cDatas loaded", "color:#0c0");
+      datas.setDatas(response.data);
+      setCategories((prevCategories) => {return datas.getDatas()});
       // setLoading(false);
     })
     .catch((error) => {
@@ -49,11 +53,29 @@ function App() {
     return (() => {return cancel()});
   },
   []);
+  //datas.setDatas(categories);
+
+  const catalogueContextValue = {
+    handleOpenGalerie:handleOpenGalerie,
+    handleCloseGalerie:handleCloseGalerie
+  };
+
+  function handleOpenGalerie(positionImage, images) {
+    setPositionImageGalerie(positionImage);
+    setImagesGalerie(images);
+  }
+
+  function handleCloseGalerie() {
+    setImagesGalerie(null);
+    setPositionImageGalerie(null);
+  }
 
   return (
     <>
-      <Router>
-        <Header />
+      <CatalogueContext.Provider value={catalogueContextValue}>
+        {imagesGalerie && <Galerie positionImg={positionImageGalerie} images={imagesGalerie}></Galerie>}
+        <Router>
+          <Header />
           <Switch>
             <Route path="/:urlCategorie">
               <PageCategorieSelector categories={categories} />
@@ -62,8 +84,9 @@ function App() {
               <PageHome categories={categories} />
             </Route>
           </Switch>
-        <Footer categories={categories} />
-      </Router>
+          <Footer categories={categories} />
+        </Router>
+      </CatalogueContext.Provider>
     </>
   );
 }

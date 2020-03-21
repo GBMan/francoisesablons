@@ -1,5 +1,5 @@
 import React from 'react';
-import PageSeries from './PageSeries';
+import PageGroupes from './PageGroupes';
 import PageGalerie from './PageGalerie';
 // import { categories2 } from './App';
 import {
@@ -8,7 +8,7 @@ import {
     useRouteMatch,
     useParams,
     useLocation,
-    useHistory
+    // useHistory
 } from 'react-router-dom';
 
 export default function PageCategorieSelector(props) {
@@ -19,40 +19,40 @@ export default function PageCategorieSelector(props) {
         categories, 
     } = props;
 
-    let { path, url } = useRouteMatch();
-    console.log("path", path);
-    console.log("url", url);
-    console.log("categories", categories);
-    let location = useLocation();
-    console.log("location", location);
+    let { path, /*url*/ } = useRouteMatch();
+    // console.log("path", path);
+    // console.log("url", url);
+    // console.log("categories", categories);
+    // let location = useLocation();
+    // console.log("location", location);
     let pathname = useLocation().pathname;
-    console.log("pathname", pathname);
-    let history = useHistory();
-    console.log("history", history);
+    // console.log("pathname", pathname);
+    // let history = useHistory();
+    // console.log("history", history);
     let { urlCategorie } = useParams();
-    console.log("urlCategorie", urlCategorie);
+    // console.log("urlCategorie", urlCategorie);
     let data = categories.find((categorie) => {
         return categorie.idRoute === urlCategorie;
     });
-    console.log("data", data);
+    // console.log("data", data);
     let page;
     if (data) {
-        if (data.hasOwnProperty("series")) {
-            console.log("Séries");
+        if (data.hasOwnProperty("groupes")) {
+            // console.log("Séries");
             if (pathname && pathname.split("/").length > 2) {
-                console.log("Séries -> Galerie");
-                data = data.series.find((serie) => {
-                    return serie.idRoute === pathname.split("/")[2];
+                // console.log("Séries -> Galerie");
+                data = data.groupes.find((groupe) => {
+                    return groupe.idRoute === pathname.split("/")[2];
                 });
                 page = <PageGalerie {...data} />;
             } 
             else {
-                console.log("Séries");
-                page = <PageSeries {...data} />;
+                // console.log("Séries");
+                page = <PageGroupes {...data} />;
             }
         }
         else {
-            console.log("Galerie");
+            // console.log("Galerie");
             page = <PageGalerie {...data} />;
         }
     }

@@ -83,6 +83,6 @@ class DatasHolder {
     }
 }
 
-const datas = new DatasHolder();
-// Object.freeze(datas);
-export default datas;
+const datasHolder = new DatasHolder();
+// Object.freeze(datasHolder);
+export default datasHolder;

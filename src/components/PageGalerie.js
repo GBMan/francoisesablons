@@ -5,7 +5,7 @@ import {
     Link,
     useRouteMatch
 } from 'react-router-dom';
-import datas from '../DatasHolder';
+import datasHolder from '../DatasHolder';
 
 export default function PageGalerie(props) {
     console.log("### PageGalerie");
@@ -14,7 +14,7 @@ export default function PageGalerie(props) {
     } = props;
     const { handleOpenGalerie } = useContext(CatalogueContext);
     const { url } = useRouteMatch();
-    const railRoad = datas.getRailRoadFromRoute(url);
+    const railRoad = datasHolder.getRailRoadFromRoute(url);
 
     function handleClickImg(id) {
         handleOpenGalerie(id, images);

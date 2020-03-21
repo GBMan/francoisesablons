@@ -5,7 +5,8 @@ import Header from './Header';
 import Footer from './Footer';
 import PageHome from './PageHome';
 import PageCategorieSelector from './PageCategorieSelector';
-import datas from '../DatasHolder';
+import PageGroupes from './PageGroupes';
+import datasHolder from '../DatasHolder';
 // import PageSeries from './PageSeries';
 // import PageSerie from './PageSerie';
 import Galerie from './Galerie';
@@ -40,8 +41,8 @@ function App() {
     )
     .then((response) => {
       console.log("%cDatas loaded", "color:#0c0");
-      datas.setDatas(response.data);
-      setCategories((prevCategories) => {return datas.getDatas()});
+      datasHolder.setDatas(response.data);
+      setCategories((prevCategories) => {return datasHolder.getDatas()});
       // setLoading(false);
     })
     .catch((error) => {
@@ -77,8 +78,12 @@ function App() {
         <Router>
           <Header />
           <Switch>
+            {/* <Route path={`:url1/:urlGalerie`}>
+              <PageGroupes categories={categories} />
+            </Route> */}
             <Route path="/:urlCategorie">
               <PageCategorieSelector categories={categories} />
+              {/* <PageGroupes categories={categories} /> */}
             </Route>
             <Route path="/">
               <PageHome categories={categories} />

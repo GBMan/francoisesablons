@@ -1,50 +1,65 @@
-import React from 'react';
-// import PageGalerie from './PageGalerie';
+import React, {useContext} from 'react';
+import {CatalogueContext} from './App';
 import BtnGroupe from './BtnGroupe';
+import BtnOeuvre from './BtnOeuvre';
 import {
-    // Route,
-    // Switch, 
     useRouteMatch,
-    // useParams
     Link
 } from 'react-router-dom';
-import datas from '../DatasHolder';
+import datasHolder from '../DatasHolder';
 
 export default function PageGroupes(props) {
     console.log("### PageGroupes");
     const {
-        groupes
+        categories
     } = props;
-
-    
+    const { handleOpenGalerie } = useContext(CatalogueContext);
     const { url } = useRouteMatch();
-    const railRoad = datas.getRailRoadFromRoute(url);
-    console.log("groupes", groupes);
-    console.log("datas", datas.getDatasFromRoute(url));
-    // console.log("path", path);
-    // console.log("url", url);
-    // let { categorie } = useParams();
-    // let params = useParams();
-    // console.log("params", params);
+    const datas = datasHolder.getDatasFromRoute(url);
+    const railRoad = datasHolder.getRailRoadFromRoute(url);
 
+    function handleClickImg(id) {
+        handleOpenGalerie(id, datas);
+    }
+    // console.log(groupes);
+    console.log(categories);
+    console.log(datas);
+    if (!datas) return <></>;
+    // console.log(datas[0].type === "groupe");
+    // console.log(datas[0].type === "oeuvre");
     return (
       <>
       <section className="page-groupes">
         <h2 className="page-groupes--title">
           {railRoad.map((step, i) => {
             return (
-              <Link key={i} to={step.route} className="btn">{step.title}</Link>
-            )
+              <React.Fragment key={i}>
+                {(i > 0) && <span> / </span>}
+                <Link to={step.route} className="btn">{step.title}</Link>
+              </React.Fragment>
+              )
             })}
         </h2>
         <div className="page-groupes--container">
-          {groupes.map((groupe) => {
-          return (
-              <BtnGroupe 
-                  key={groupe.id} 
-                  {...groupe} 
-              />
-          )})}
+          {(datas[0].type === "groupe") &&
+            datas.map((groupe, i) => {
+              return (
+                <BtnGroupe 
+                    key={i} 
+                    {...groupe} 
+                />
+              )})}
+          {(datas[0].type === "oeuvre") &&
+            datas.map((oeuvre, i) => {
+              return (
+                <BtnOeuvre 
+                    key={i} 
+                    position={i} 
+                    {...oeuvre} 
+                    handleClickImg={handleClickImg}
+                    cssClass="btn--groupe-img-container"
+                />
+              )})}
         </div>
       </section>
       </>

@@ -3,6 +3,7 @@
       "id":1,
       "route":"/peintures",
       "idRoute":"peintures",
+      "type":"groupe",
       "title":"Peintures",
       "path160":"/assets/img/small/thumb_bracelet.jpg",
       "path320":"/assets/img/small/thumb_croix.jpg",
@@ -14,6 +15,7 @@
       "images":[
         {
           "id":11,
+          "type":"oeuvre",
           "title":"Champignon martien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -43,6 +45,7 @@
         },
         {
           "id":12,
+          "type":"oeuvre",
           "title":"Choux vénusien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -56,6 +59,7 @@
         },
         {
           "id":13,
+          "type":"oeuvre",
           "title":"Tarte jupitérienne",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -73,6 +77,7 @@
       "id":2,
       "route":"/sculptures",
       "idRoute":"sculptures",
+      "type":"groupe",
       "title":"Sculptures",
       "path160":"/assets/img/small/thumb_160.jpg",
       "path320":"/assets/img/small/thumb_320.jpg",
@@ -86,6 +91,7 @@
           "id":99,
           "route":"/sculptures/sauvages",
           "idRoute":"sauvages",
+          "type":"groupe",
           "title":"Sauvages",
           "path160":"/assets/img/small/thumb_160.jpg",
           "path320":"/assets/img/small/thumb_320.jpg",
@@ -97,6 +103,7 @@
           "images":[
             {
               "id":21,
+              "type":"oeuvre",
               "title":"Renard radioactif",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -110,6 +117,7 @@
             },
             {
               "id":22,
+              "type":"oeuvre",
               "title":"Baleine balerine",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -123,6 +131,7 @@
             },
             {
               "id":23,
+              "type":"oeuvre",
               "title":"Saumon sincère",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -140,6 +149,7 @@
           "id":98,
           "route":"/sculptures/ours",
           "idRoute":"ours",
+          "type":"groupe",
           "title":"Ours",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
@@ -151,6 +161,7 @@
           "images":[
             {
               "id":21,
+              "type":"oeuvre",
               "title":"Lapin supersonique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -164,6 +175,7 @@
             },
             {
               "id":22,
+              "type":"oeuvre",
               "title":"Rat allergène",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -177,6 +189,7 @@
             },
             {
               "id":23,
+              "type":"oeuvre",
               "title":"Vautour électrique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -194,6 +207,7 @@
           "id":96,
           "route":"/sculptures/plumes",
           "idRoute":"plumes",
+          "type":"groupe",
           "title":"Plumes",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
@@ -205,6 +219,7 @@
           "images":[
             {
               "id":21,
+              "type":"oeuvre",
               "title":"Coq cocu",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -218,6 +233,7 @@
             },
             {
               "id":22,
+              "type":"oeuvre",
               "title":"Canard cancaneur",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -231,6 +247,7 @@
             },
             {
               "id":23,
+              "type":"oeuvre",
               "title":"Pigeon pyromane",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -250,6 +267,7 @@
       "id":3,
       "route":"/textiles",
       "idRoute":"textiles",
+      "type":"groupe",
       "title":"Textiles",
       "path160":"/assets/img/small/thumb_bracelet.jpg",
       "path320":"/assets/img/small/thumb_bracelet.jpg",
@@ -259,6 +277,7 @@
           "id":97,
           "route":"/textiles/bracelets",
           "idRoute":"bracelets",
+          "type":"groupe",
           "title":"Bracelets",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
@@ -270,6 +289,7 @@
           "images":[
             {
               "id":31,
+              "type":"oeuvre",
               "title":"Camion aimable",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -283,6 +303,7 @@
             },
             {
               "id":32,
+              "type":"oeuvre",
               "title":"Moto colérique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -296,6 +317,7 @@
             },
             {
               "id":33,
+              "type":"oeuvre",
               "title":"Avion timide",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -313,6 +335,7 @@
           "id":96,
           "route":"/textiles/croix",
           "idRoute":"croix",
+          "type":"groupe",
           "title":"Croix",
           "path160":"/assets/img/small/thumb_bracelet.jpg",
           "path320":"/assets/img/small/thumb_poupee.jpg",
@@ -324,6 +347,7 @@
           "images":[
             {
               "id":31,
+              "type":"oeuvre",
               "title":"Voiture vulgaire",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -337,6 +361,7 @@
             },
             {
               "id":32,
+              "type":"oeuvre",
               "title":"Hélicoptère élitiste",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
@@ -350,6 +375,7 @@
             },
             {
               "id":33,
+              "type":"oeuvre",
               "title":"Bateau barbant",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",

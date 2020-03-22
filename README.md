@@ -39,3 +39,6 @@ Prepare the package to send with a description.
 
 `git push -u origin master`
 Push the datas on git.
+
+## Fonts
+Pictos gets on http://glyphter.com

@@ -10,11 +10,9 @@ import {
 } from 'react-router-dom';
 import datasHolder from '../DatasHolder';
 
-export default function PageGroupes(props) {
+export default function PageGroupes() {
   console.log("### PageGroupes");
-  const {
-    categories
-  } = props;
+  
   const { handleOpenGalerie } = useContext(CatalogueContext);
   const { url } = useRouteMatch();
   const datas = datasHolder.getDatasFromRoute(url);
@@ -28,8 +26,8 @@ export default function PageGroupes(props) {
   return (
     <>
     <Switch>
-      <Route path={`${url}/:urlGalerie`}>
-        <PageGroupes {...categories} />
+      <Route path={`${url}/:url`}>
+        <PageGroupes />
       </Route>
       <Route path={`${url}`}>
         <section className="page-groupes">

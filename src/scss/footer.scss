@@ -2,12 +2,13 @@
     background-color: $footer-bg;
     color:$footer-txt;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1.2fr;
     padding: 5px;
 }
 
 .App-footer--left {
     align-self: start;
+    // width: 100%;
     li {
         margin-bottom: 5px;
     }
@@ -25,8 +26,9 @@
 
 .App-footer--right {
     align-self: end;
-    justify-self: end;
+    // justify-self: end;
     text-align: right;
+    // width: 100%;
     li+li {
         margin-top: 5px;
     }

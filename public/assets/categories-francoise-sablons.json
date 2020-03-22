@@ -5,11 +5,15 @@
       "idRoute":"peintures",
       "type":"groupe",
       "title":"Peintures",
-      "path160":"/assets/img/small/thumb_bracelet.jpg",
-      "path320":"/assets/img/small/thumb_croix.jpg",
+      "160":"/assets/img/small/thumb_bracelet.jpg",
+      "320":"/assets/img/small/thumb_croix.jpg",
       "thumbs":{
-          "path160":"/assets/img/small/thumb_bracelet.jpg",
-          "path320":"/assets/img/small/thumb_croix.jpg"
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_320.jpg",
+          "640":"/assets/img/small/thumb_640.jpg",
+          "960":"/assets/img/small/thumb_960.jpg",
+          "1280":"/assets/img/small/thumb_1280.jpg",
+          "1600":"/assets/img/small/thumb_1600.jpg"
       },
       "alt":"Croix en tissu représentant l'ensemble de la série des croix.",
       "images":[
@@ -19,27 +23,27 @@
           "title":"Champignon martien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "path160":"/assets/img/small/thumb_160.jpg",
-          "path320":"/assets/img/small/thumb_nounours.jpg",
-          "path640":"/assets/img/small/thumb_poupee.jpg",
-          "path960":"/assets/img/small/thumb_bracelet_2.jpg",
-          "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
-          "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_nounours.jpg",
+          "640":"/assets/img/small/thumb_poupee.jpg",
+          "960":"/assets/img/small/thumb_bracelet_2.jpg",
+          "1280":"/assets/img/small/thumb_bracelet_3.jpg",
+          "1600":"/assets/img/small/thumb_bracelet_4.jpg",
           "thumbs":{
-            "path160":"/assets/img/small/thumb_160.jpg",
-            "path320":"/assets/img/small/thumb_320.jpg",
-            "path640":"/assets/img/small/thumb_640.jpg",
-            "path960":"/assets/img/small/thumb_960.jpg",
-            "path1280":"/assets/img/small/thumb_1280.jpg",
-            "path1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
           },
           "imgs":{
-            "path160":"/assets/img/small/thumb_160.jpg",
-            "path320":"/assets/img/small/thumb_320.jpg",
-            "path640":"/assets/img/small/thumb_640.jpg",
-            "path960":"/assets/img/small/thumb_960.jpg",
-            "path1280":"/assets/img/small/thumb_1280.jpg",
-            "path1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
           },
           "alt":"Croix en tissu blanche et bleue avec perles nacrées."
         },
@@ -49,12 +53,28 @@
           "title":"Choux vénusien",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "path160":"/assets/img/small/thumb_160.jpg",
-          "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-          "path640":"/assets/img/small/thumb_nounours.jpg",
-          "path960":"/assets/img/small/thumb_poupee.jpg",
-          "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-          "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_bracelet_4.jpg",
+          "640":"/assets/img/small/thumb_nounours.jpg",
+          "960":"/assets/img/small/thumb_poupee.jpg",
+          "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+          "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
+          "imgs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Croix en tissu rouge et verte avec perles en bois."
         },
         {
@@ -63,12 +83,28 @@
           "title":"Tarte jupitérienne",
           "infos":"Assemblage de bois et de clous.",
           "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "path160":"/assets/img/small/thumb_160.jpg",
-          "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-          "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-          "path960":"/assets/img/small/thumb_nounours.jpg",
-          "path1280":"/assets/img/small/thumb_poupee.jpg",
-          "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_bracelet_3.jpg",
+          "640":"/assets/img/small/thumb_bracelet_4.jpg",
+          "960":"/assets/img/small/thumb_nounours.jpg",
+          "1280":"/assets/img/small/thumb_poupee.jpg",
+          "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
+          "imgs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Croix en tissu rouge et marron avec perles métalliques."
         }
       ]
@@ -79,12 +115,20 @@
       "idRoute":"sculptures",
       "type":"groupe",
       "title":"Sculptures",
-      "path160":"/assets/img/small/thumb_160.jpg",
-      "path320":"/assets/img/small/thumb_320.jpg",
-      "path640":"/assets/img/small/thumb_640.jpg",
-      "path960":"/assets/img/small/thumb_960.jpg",
-      "path1280":"/assets/img/small/thumb_1280.jpg",
-      "path1600":"/assets/img/small/thumb_1600.jpg",
+      "160":"/assets/img/small/thumb_160.jpg",
+      "320":"/assets/img/small/thumb_320.jpg",
+      "640":"/assets/img/small/thumb_640.jpg",
+      "960":"/assets/img/small/thumb_960.jpg",
+      "1280":"/assets/img/small/thumb_1280.jpg",
+      "1600":"/assets/img/small/thumb_1600.jpg",
+      "thumbs":{
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_320.jpg",
+          "640":"/assets/img/small/thumb_640.jpg",
+          "960":"/assets/img/small/thumb_960.jpg",
+          "1280":"/assets/img/small/thumb_1280.jpg",
+          "1600":"/assets/img/small/thumb_1600.jpg"
+      },
       "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
       "groupes": [
         {
@@ -93,12 +137,14 @@
           "idRoute":"sauvages",
           "type":"groupe",
           "title":"Sauvages",
-          "path160":"/assets/img/small/thumb_160.jpg",
-          "path320":"/assets/img/small/thumb_320.jpg",
-          "path640":"/assets/img/small/thumb_640.jpg",
-          "path960":"/assets/img/small/thumb_960.jpg",
-          "path1280":"/assets/img/small/thumb_1280.jpg",
-          "path1600":"/assets/img/small/thumb_1600.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -107,12 +153,28 @@
               "title":"Renard radioactif",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_320.jpg",
-              "path640":"/assets/img/small/thumb_640.jpg",
-              "path960":"/assets/img/small/thumb_960.jpg",
-              "path1280":"/assets/img/small/thumb_1280.jpg",
-              "path1600":"/assets/img/small/thumb_1600.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_320.jpg",
+              "640":"/assets/img/small/thumb_640.jpg",
+              "960":"/assets/img/small/thumb_960.jpg",
+              "1280":"/assets/img/small/thumb_1280.jpg",
+              "1600":"/assets/img/small/thumb_1600.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu blanche et bleue avec perles nacrées."
             },
             {
@@ -121,12 +183,28 @@
               "title":"Baleine balerine",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path640":"/assets/img/small/thumb_nounours.jpg",
-              "path960":"/assets/img/small/thumb_poupee.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_4.jpg",
+              "640":"/assets/img/small/thumb_nounours.jpg",
+              "960":"/assets/img/small/thumb_poupee.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et verte avec perles en bois."
             },
             {
@@ -135,12 +213,28 @@
               "title":"Saumon sincère",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path960":"/assets/img/small/thumb_nounours.jpg",
-              "path1280":"/assets/img/small/thumb_poupee.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_3.jpg",
+              "640":"/assets/img/small/thumb_bracelet_4.jpg",
+              "960":"/assets/img/small/thumb_nounours.jpg",
+              "1280":"/assets/img/small/thumb_poupee.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et marron avec perles métalliques."
             }
           ]
@@ -151,12 +245,14 @@
           "idRoute":"ours",
           "type":"groupe",
           "title":"Ours",
-          "path160":"/assets/img/small/thumb_bracelet.jpg",
-          "path320":"/assets/img/small/thumb_poupee.jpg",
-          "path640":"/assets/img/small/thumb_640.jpg",
-          "path960":"/assets/img/small/thumb_960.jpg",
-          "path1280":"/assets/img/small/thumb_1280.jpg",
-          "path1600":"/assets/img/small/thumb_1600.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -165,12 +261,28 @@
               "title":"Lapin supersonique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_nounours.jpg",
-              "path640":"/assets/img/small/thumb_poupee.jpg",
-              "path960":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_nounours.jpg",
+              "640":"/assets/img/small/thumb_poupee.jpg",
+              "960":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_3.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu blanche et bleue avec perles nacrées."
             },
             {
@@ -179,12 +291,28 @@
               "title":"Rat allergène",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path640":"/assets/img/small/thumb_nounours.jpg",
-              "path960":"/assets/img/small/thumb_poupee.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_4.jpg",
+              "640":"/assets/img/small/thumb_nounours.jpg",
+              "960":"/assets/img/small/thumb_poupee.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et verte avec perles en bois."
             },
             {
@@ -193,12 +321,28 @@
               "title":"Vautour électrique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path960":"/assets/img/small/thumb_nounours.jpg",
-              "path1280":"/assets/img/small/thumb_poupee.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_3.jpg",
+              "640":"/assets/img/small/thumb_bracelet_4.jpg",
+              "960":"/assets/img/small/thumb_nounours.jpg",
+              "1280":"/assets/img/small/thumb_poupee.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et marron avec perles métalliques."
             }
           ]
@@ -209,12 +353,14 @@
           "idRoute":"plumes",
           "type":"groupe",
           "title":"Plumes",
-          "path160":"/assets/img/small/thumb_bracelet.jpg",
-          "path320":"/assets/img/small/thumb_poupee.jpg",
-          "path640":"/assets/img/small/thumb_640.jpg",
-          "path960":"/assets/img/small/thumb_960.jpg",
-          "path1280":"/assets/img/small/thumb_1280.jpg",
-          "path1600":"/assets/img/small/thumb_1600.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -223,12 +369,28 @@
               "title":"Coq cocu",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_nounours.jpg",
-              "path640":"/assets/img/small/thumb_poupee.jpg",
-              "path960":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_nounours.jpg",
+              "640":"/assets/img/small/thumb_poupee.jpg",
+              "960":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_3.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu blanche et bleue avec perles nacrées."
             },
             {
@@ -237,12 +399,28 @@
               "title":"Canard cancaneur",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path640":"/assets/img/small/thumb_nounours.jpg",
-              "path960":"/assets/img/small/thumb_poupee.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_4.jpg",
+              "640":"/assets/img/small/thumb_nounours.jpg",
+              "960":"/assets/img/small/thumb_poupee.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et verte avec perles en bois."
             },
             {
@@ -251,12 +429,28 @@
               "title":"Pigeon pyromane",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path960":"/assets/img/small/thumb_nounours.jpg",
-              "path1280":"/assets/img/small/thumb_poupee.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_3.jpg",
+              "640":"/assets/img/small/thumb_bracelet_4.jpg",
+              "960":"/assets/img/small/thumb_nounours.jpg",
+              "1280":"/assets/img/small/thumb_poupee.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et marron avec perles métalliques."
             }
           ]
@@ -269,8 +463,16 @@
       "idRoute":"textiles",
       "type":"groupe",
       "title":"Textiles",
-      "path160":"/assets/img/small/thumb_bracelet.jpg",
-      "path320":"/assets/img/small/thumb_bracelet.jpg",
+      "160":"/assets/img/small/thumb_bracelet.jpg",
+      "320":"/assets/img/small/thumb_bracelet.jpg",
+      "thumbs":{
+          "160":"/assets/img/small/thumb_160.jpg",
+          "320":"/assets/img/small/thumb_320.jpg",
+          "640":"/assets/img/small/thumb_640.jpg",
+          "960":"/assets/img/small/thumb_960.jpg",
+          "1280":"/assets/img/small/thumb_1280.jpg",
+          "1600":"/assets/img/small/thumb_1600.jpg"
+      },
       "alt":"Bracelet en tissu représentant l'ensemble de la série des bracelets.",
       "groupes": [
         {
@@ -279,12 +481,14 @@
           "idRoute":"bracelets",
           "type":"groupe",
           "title":"Bracelets",
-          "path160":"/assets/img/small/thumb_bracelet.jpg",
-          "path320":"/assets/img/small/thumb_poupee.jpg",
-          "path640":"/assets/img/small/thumb_640.jpg",
-          "path960":"/assets/img/small/thumb_960.jpg",
-          "path1280":"/assets/img/small/thumb_1280.jpg",
-          "path1600":"/assets/img/small/thumb_1600.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -293,12 +497,28 @@
               "title":"Camion aimable",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_nounours.jpg",
-              "path640":"/assets/img/small/thumb_poupee.jpg",
-              "path960":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_nounours.jpg",
+              "640":"/assets/img/small/thumb_poupee.jpg",
+              "960":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_3.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu blanche et bleue avec perles nacrées."
             },
             {
@@ -307,12 +527,28 @@
               "title":"Moto colérique",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path640":"/assets/img/small/thumb_nounours.jpg",
-              "path960":"/assets/img/small/thumb_poupee.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_4.jpg",
+              "640":"/assets/img/small/thumb_nounours.jpg",
+              "960":"/assets/img/small/thumb_poupee.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et verte avec perles en bois."
             },
             {
@@ -321,12 +557,28 @@
               "title":"Avion timide",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path960":"/assets/img/small/thumb_nounours.jpg",
-              "path1280":"/assets/img/small/thumb_poupee.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_3.jpg",
+              "640":"/assets/img/small/thumb_bracelet_4.jpg",
+              "960":"/assets/img/small/thumb_nounours.jpg",
+              "1280":"/assets/img/small/thumb_poupee.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et marron avec perles métalliques."
             }
           ]
@@ -337,12 +589,14 @@
           "idRoute":"croix",
           "type":"groupe",
           "title":"Croix",
-          "path160":"/assets/img/small/thumb_bracelet.jpg",
-          "path320":"/assets/img/small/thumb_poupee.jpg",
-          "path640":"/assets/img/small/thumb_640.jpg",
-          "path960":"/assets/img/small/thumb_960.jpg",
-          "path1280":"/assets/img/small/thumb_1280.jpg",
-          "path1600":"/assets/img/small/thumb_1600.jpg",
+          "thumbs":{
+            "160":"/assets/img/small/thumb_160.jpg",
+            "320":"/assets/img/small/thumb_320.jpg",
+            "640":"/assets/img/small/thumb_640.jpg",
+            "960":"/assets/img/small/thumb_960.jpg",
+            "1280":"/assets/img/small/thumb_1280.jpg",
+            "1600":"/assets/img/small/thumb_1600.jpg"
+          },
           "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
           "images":[
             {
@@ -351,12 +605,28 @@
               "title":"Voiture vulgaire",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_nounours.jpg",
-              "path640":"/assets/img/small/thumb_poupee.jpg",
-              "path960":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_nounours.jpg",
+              "640":"/assets/img/small/thumb_poupee.jpg",
+              "960":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_3.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_4.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu blanche et bleue avec perles nacrées."
             },
             {
@@ -365,12 +635,28 @@
               "title":"Hélicoptère élitiste",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path640":"/assets/img/small/thumb_nounours.jpg",
-              "path960":"/assets/img/small/thumb_poupee.jpg",
-              "path1280":"/assets/img/small/thumb_bracelet_2.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_4.jpg",
+              "640":"/assets/img/small/thumb_nounours.jpg",
+              "960":"/assets/img/small/thumb_poupee.jpg",
+              "1280":"/assets/img/small/thumb_bracelet_2.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_3.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et verte avec perles en bois."
             },
             {
@@ -379,12 +665,28 @@
               "title":"Bateau barbant",
               "infos":"Assemblage de bois et de clous.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "path160":"/assets/img/small/thumb_160.jpg",
-              "path320":"/assets/img/small/thumb_bracelet_3.jpg",
-              "path640":"/assets/img/small/thumb_bracelet_4.jpg",
-              "path960":"/assets/img/small/thumb_nounours.jpg",
-              "path1280":"/assets/img/small/thumb_poupee.jpg",
-              "path1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "160":"/assets/img/small/thumb_160.jpg",
+              "320":"/assets/img/small/thumb_bracelet_3.jpg",
+              "640":"/assets/img/small/thumb_bracelet_4.jpg",
+              "960":"/assets/img/small/thumb_nounours.jpg",
+              "1280":"/assets/img/small/thumb_poupee.jpg",
+              "1600":"/assets/img/small/thumb_bracelet_2.jpg",
+              "thumbs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/small/thumb_160.jpg",
+                "320":"/assets/img/small/thumb_320.jpg",
+                "640":"/assets/img/small/thumb_640.jpg",
+                "960":"/assets/img/small/thumb_960.jpg",
+                "1280":"/assets/img/small/thumb_1280.jpg",
+                "1600":"/assets/img/small/thumb_1600.jpg"
+              },
               "alt":"Croix en tissu rouge et marron avec perles métalliques."
             }
           ]

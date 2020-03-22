@@ -12,13 +12,15 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import DevInfos from './DevInfos';
 
 export const CatalogueContext = React.createContext();
 
-function App() {
+export default function App() {
   console.log("### App");
   // const [loading, setLoading] = useState(true);
   // const [error, setError] = useState(false);
+  const dev = false;
   const [categories, setCategories] = useState([]);
   const [positionImageGalerie, setPositionImageGalerie] = useState(null);
   const [imagesGalerie, setImagesGalerie] = useState(null);
@@ -26,12 +28,10 @@ function App() {
 
   useEffect(() => {
     let cancel;
-    axios(
-      {
-          method: 'GET',
-          url: 'http://localhost:3000/assets/categories-francoise-sablons.json'
-      }
-    )
+    axios({
+      method: 'GET',
+      url: 'http://localhost:3000/assets/categories-francoise-sablons.json'
+    })
     .then((response) => {
       console.log("%cDatas loaded", "color:#0c0");
       datasHolder.setDatas(response.data);
@@ -65,13 +65,14 @@ function App() {
 
   return (
     <>
+      {dev && <DevInfos />}
       <CatalogueContext.Provider value={catalogueContextValue}>
         {imagesGalerie && <Galerie positionImg={positionImageGalerie} images={imagesGalerie}></Galerie>}
         <Router>
           <Header />
           <Switch>
-            <Route path="/:urlCategorie">
-              <PageGroupes categories={categories} />
+            <Route path="/:url">
+              <PageGroupes />
             </Route>
             <Route path="/">
               <PageHome categories={categories} />
@@ -83,5 +84,3 @@ function App() {
     </>
   );
 }
-
-export default App;

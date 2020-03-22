@@ -12,15 +12,26 @@ export default function BtnCategorie(props) {
         id,
         title,
         route,
-        path160,
-        path320,
+        thumbs,
         alt
     } = props;
+
+    let a = []
+    for (let path in thumbs) {
+        a.push(`${thumbs[path]} ${path}w`)
+    }
+    const srcSet = a.join(", ")
 
     return (
         <Link to={route} className="btn btn--categorie" key={id}>
             <div className="btn btn--img-container btn--categorie-img">
-                <img className="btn--img" src={path160} srcSet={path160+" 1x, "+path320+" 2x"} sizes="160"  alt={alt} />
+                <img 
+                    className="btn--img" 
+                    src={thumbs[0]} 
+                    srcSet={srcSet} 
+                    sizes="350px" 
+                    alt={alt} 
+                />
             </div>
             <div className="btn--categorie-txt">{title}</div>
         </Link>

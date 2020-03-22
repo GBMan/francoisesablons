@@ -4,20 +4,13 @@ import '../scss/app.scss';
 import Header from './Header';
 import Footer from './Footer';
 import PageHome from './PageHome';
-import PageCategorieSelector from './PageCategorieSelector';
 import PageGroupes from './PageGroupes';
 import datasHolder from '../DatasHolder';
-// import PageSeries from './PageSeries';
-// import PageSerie from './PageSerie';
 import Galerie from './Galerie';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  // useLocation
-  // Link,
-  // useRouteMatch,
-  // useParams
+  Route
 } from "react-router-dom";
 
 export const CatalogueContext = React.createContext();
@@ -54,7 +47,6 @@ function App() {
     return (() => {return cancel()});
   },
   []);
-  //datas.setDatas(categories);
 
   const catalogueContextValue = {
     handleOpenGalerie:handleOpenGalerie,
@@ -78,12 +70,8 @@ function App() {
         <Router>
           <Header />
           <Switch>
-            {/* <Route path={`:url1/:urlGalerie`}>
-              <PageGroupes categories={categories} />
-            </Route> */}
             <Route path="/:urlCategorie">
-              <PageCategorieSelector categories={categories} />
-              {/* <PageGroupes categories={categories} /> */}
+              <PageGroupes categories={categories} />
             </Route>
             <Route path="/">
               <PageHome categories={categories} />

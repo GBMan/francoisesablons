@@ -21,10 +21,10 @@ class DatasHolder {
         const aRouteClean = (aRouteBrut[0] === "") ? aRouteBrut.splice(1) : aRouteBrut;
         const datas = this.searchDatasDeep(aRouteClean, this.datas)
         this.prevDatas[route] = datas;
-        
+
         return datas;
     }
-    searchDatasDeep(aRouteClean, groupes, deep=0) {
+    searchDatasDeep(aRouteClean, groupes, deep = 0) {
         const groupe = groupes.find((groupe) => {
             return (groupe.idRoute === aRouteClean[deep]);
         });
@@ -61,17 +61,17 @@ class DatasHolder {
 
         return railRoad;
     }
-    searchRailRoadDeep(aRouteClean, groupes, railRoad=[], deep=0) {
+    searchRailRoadDeep(aRouteClean, groupes, railRoad = [], deep = 0) {
         const groupe = groupes.find((groupe) => {
             return (groupe.idRoute === aRouteClean[deep]);
         });
         if (!groupe) return railRoad;
-        railRoad.push({title:groupe.title, route:groupe.route});
+        let newRailRoad = [...railRoad, { title: groupe.title, route: groupe.route }];
         deep++;
         if (aRouteClean.length > deep && groupe.hasOwnProperty("groupes")) {
-            railRoad = this.searchRailRoadDeep(aRouteClean, groupe.groupes, railRoad, deep);
+            newRailRoad = this.searchRailRoadDeep(aRouteClean, groupe.groupes, newRailRoad, deep);
         }
-        return railRoad;
+        return newRailRoad;
     }
 
     setDatas(datas) {

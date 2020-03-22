@@ -24,13 +24,16 @@ export default function App() {
   const [categories, setCategories] = useState([]);
   const [positionImageGalerie, setPositionImageGalerie] = useState(null);
   const [imagesGalerie, setImagesGalerie] = useState(null);
-  // let {location} = useLocation();
+
+  const regex = /(http|https):\/\/[\w\n:\-\.]*/gm;
+  const str = document.URL
+  const baseUrl = regex.exec(str)[0];
 
   useEffect(() => {
     let cancel;
     axios({
       method: 'GET',
-      url: 'http://localhost:3000/assets/categories-francoise-sablons.json'
+      url: `${baseUrl}/assets/categories-francoise-sablons.json`
     })
     .then((response) => {
       console.log("%cDatas loaded", "color:#0c0");

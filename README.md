@@ -42,3 +42,6 @@ Push the datas on git.
 
 ## Fonts
 Pictos gets on http://glyphter.com
+
+## Netlify
+https://relaxed-kare-8fe9ac.netlify.com/

@@ -3,16 +3,14 @@ import axios from 'axios';
 import '../scss/app.scss';
 import Header from './Header';
 import Footer from './Footer';
-import PageHome from './PageHome';
-import PageGroupes from './PageGroupes';
+import PageContainer from './PageContainer';
 import datasHolder from '../DatasHolder';
 import Galerie from './Galerie';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route
+  BrowserRouter as Router
 } from "react-router-dom";
 import DevInfos from './DevInfos';
+import { getBaseUrl } from '../gbtools/tools';
 
 export const CatalogueContext = React.createContext();
 
@@ -24,10 +22,7 @@ export default function App() {
   const [categories, setCategories] = useState([]);
   const [positionImageGalerie, setPositionImageGalerie] = useState(null);
   const [imagesGalerie, setImagesGalerie] = useState(null);
-
-  const regex = /(http|https):\/\/[\w\n:\-\.]*/gm;
-  const str = document.URL
-  const baseUrl = regex.exec(str)[0];
+  const baseUrl = getBaseUrl();
 
   useEffect(() => {
     let cancel;
@@ -49,7 +44,7 @@ export default function App() {
     });
     return (() => {return cancel()});
   },
-  []);
+  [baseUrl]);
 
   const catalogueContextValue = {
     handleOpenGalerie:handleOpenGalerie,
@@ -73,14 +68,7 @@ export default function App() {
         {imagesGalerie && <Galerie positionImg={positionImageGalerie} images={imagesGalerie}></Galerie>}
         <Router>
           <Header />
-          <Switch>
-            <Route path="/:url">
-              <PageGroupes />
-            </Route>
-            <Route path="/">
-              <PageHome categories={categories} />
-            </Route>
-          </Switch>
+          <PageContainer categories={categories} />
           <Footer categories={categories} />
         </Router>
       </CatalogueContext.Provider>

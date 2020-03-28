@@ -16,6 +16,7 @@
     grid-template-columns: min-content auto;
     height: calc((100vh - 110px) / 3);
     transition: background-color 0.2s;
+    &:focus,
     &:hover {
         background-color: $second;
         color: $clear;

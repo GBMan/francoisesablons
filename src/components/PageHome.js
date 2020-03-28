@@ -8,7 +8,7 @@ export default function PageHome(props) {
 
     return (
         <>
-            <ul className="page-home--container">
+            <ul className="page page-home--container">
                 {categories.map((categorie) => {
                     return <li key={categorie.id} className="page-home--element"><BtnCategorie
                     {...categorie} /></li>;

@@ -14,7 +14,7 @@
     display:grid;
     font-weight: bold;
     grid-template-columns: min-content auto;
-    height: calc((100vh - 110px) / 3);
+    height: calc((100vh - 110px) / 2);
     transition: background-color 0.2s;
     &:focus,
     &:hover {
@@ -24,7 +24,7 @@
             transform:scale(1.2);
         }
         .btn--categorie-img {
-            width: calc((100vh - 110px) / 3);
+            width: calc((100vh - 110px) / 2);
         }
         .btn--categorie-txt {
             color: $clear;

@@ -46,12 +46,12 @@ export default function PageContainer({categories}) {
                 onEnter={() => handleTransitionEnter()}
                 onExited={() => handleTransitionExited()}>
                     <Switch location={location}>
-                    <Route path="/:url">
-                        <PageGroupes />
-                    </Route>
-                    <Route path="/">
-                        <PageHome categories={categories} />
-                    </Route>
+                        <Route path="/:url">
+                            <PageGroupes />
+                        </Route>
+                        <Route path="/">
+                            <PageHome categories={categories} />
+                        </Route>
                     </Switch>
                 </CSSTransition>
             </TransitionGroup>

@@ -1,109 +1,20 @@
 [
     {
-      "id":1,
-      "route":"/peintures",
-      "idRoute":"peintures",
-      "type":"groupe",
-      "title":"Peintures",
-      "thumbs":{
-          "160":"/assets/img/small/thumb_160.jpg",
-          "320":"/assets/img/small/thumb_320.jpg",
-          "640":"/assets/img/small/thumb_640.jpg",
-          "960":"/assets/img/small/thumb_960.jpg",
-          "1280":"/assets/img/small/thumb_1280.jpg",
-          "1600":"/assets/img/small/thumb_1600.jpg"
-      },
-      "alt":"Croix en tissu représentant l'ensemble de la série des croix.",
-      "images":[
-        {
-          "id":11,
-          "type":"oeuvre",
-          "title":"Champignon martien",
-          "infos":"Assemblage de bois et de clous.",
-          "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "imgs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "alt":"Croix en tissu blanche et bleue avec perles nacrées."
-        },
-        {
-          "id":12,
-          "type":"oeuvre",
-          "title":"Choux vénusien",
-          "infos":"Assemblage de bois et de clous.",
-          "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "imgs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "alt":"Croix en tissu rouge et verte avec perles en bois."
-        },
-        {
-          "id":13,
-          "type":"oeuvre",
-          "title":"Tarte jupitérienne",
-          "infos":"Assemblage de bois et de clous.",
-          "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-          "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "imgs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "alt":"Croix en tissu rouge et marron avec perles métalliques."
-        }
-      ]
-    },
-    {
       "id":2,
       "route":"/sculptures",
       "idRoute":"sculptures",
       "type":"groupe",
       "title":"Sculptures",
       "thumbs":{
-          "160":"/assets/img/small/thumb_160.jpg",
-          "320":"/assets/img/small/thumb_320.jpg",
-          "640":"/assets/img/small/thumb_640.jpg",
-          "960":"/assets/img/small/thumb_960.jpg",
-          "1280":"/assets/img/small/thumb_1280.jpg",
-          "1600":"/assets/img/small/thumb_1600.jpg"
+        "160":"/assets/img/sauvage_21_160.jpg",
+        "320":"/assets/img/sauvage_21_320.jpg",
+        "640":"/assets/img/sauvage_21_640.jpg",
+        "960":"/assets/img/sauvage_21_960.jpg",
+        "1280":"/assets/img/sauvage_21_1280.jpg",
+        "1600":"/assets/img/sauvage_21_1600.jpg",
+        "1920":"/assets/img/sauvage_21_1920.jpg"
       },
-      "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
+      "alt":"Sculptures réalisées aux crochet.",
       "groupes": [
         {
           "id":99,
@@ -112,86 +23,41 @@
           "type":"groupe",
           "title":"Sauvages",
           "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/sauvage_21_160.jpg",
+            "320":"/assets/img/sauvage_21_320.jpg",
+            "640":"/assets/img/sauvage_21_640.jpg",
+            "960":"/assets/img/sauvage_21_960.jpg",
+            "1280":"/assets/img/sauvage_21_1280.jpg",
+            "1600":"/assets/img/sauvage_21_1600.jpg",
+            "1920":"/assets/img/sauvage_21_1920.jpg"
           },
-          "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
+          "alt":"Sculptures réalisées au crochet.",
           "images":[
             {
-              "id":21,
+              "id":11,
               "type":"oeuvre",
-              "title":"Renard radioactif",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Sauvage 1",
+              "infos":"Sculpture au crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/sauvage_21_160.jpg",
+                "320":"/assets/img/sauvage_21_320.jpg",
+                "640":"/assets/img/sauvage_21_640.jpg",
+                "960":"/assets/img/sauvage_21_960.jpg",
+                "1280":"/assets/img/sauvage_21_1280.jpg",
+                "1600":"/assets/img/sauvage_21_1600.jpg",
+                "1920":"/assets/img/sauvage_21_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/sauvage_21_160.jpg",
+                "320":"/assets/img/sauvage_21_320.jpg",
+                "640":"/assets/img/sauvage_21_640.jpg",
+                "960":"/assets/img/sauvage_21_960.jpg",
+                "1280":"/assets/img/sauvage_21_1280.jpg",
+                "1600":"/assets/img/sauvage_21_1600.jpg",
+                "1920":"/assets/img/sauvage_21_1920.jpg"
               },
-              "alt":"Croix en tissu blanche et bleue avec perles nacrées."
-            },
-            {
-              "id":22,
-              "type":"oeuvre",
-              "title":"Baleine balerine",
-              "infos":"Assemblage de bois et de clous.",
-              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "alt":"Croix en tissu rouge et verte avec perles en bois."
-            },
-            {
-              "id":23,
-              "type":"oeuvre",
-              "title":"Saumon sincère",
-              "infos":"Assemblage de bois et de clous.",
-              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "alt":"Croix en tissu rouge et marron avec perles métalliques."
+              "alt":"Sculpture réalisée au crochet."
             }
           ]
         },
@@ -202,176 +68,353 @@
           "type":"groupe",
           "title":"Ours",
           "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/Galerie_7473_160.jpg",
+            "320":"/assets/img/Galerie_7473_320.jpg",
+            "640":"/assets/img/Galerie_7473_640.jpg",
+            "960":"/assets/img/Galerie_7473_960.jpg",
+            "1280":"/assets/img/Galerie_7473_1280.jpg",
+            "1600":"/assets/img/Galerie_7473_1600.jpg",
+            "1920":"/assets/img/Galerie_7473_1920.jpg"
           },
-          "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
+          "alt":"Ours réalisé au crochet représentant l'ensemble de la série des ours.",
           "images":[
             {
               "id":21,
               "type":"oeuvre",
-              "title":"Lapin supersonique",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Ours 1",
+              "infos":"Ours en crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7473_160.jpg",
+                "320":"/assets/img/Galerie_7473_320.jpg",
+                "640":"/assets/img/Galerie_7473_640.jpg",
+                "960":"/assets/img/Galerie_7473_960.jpg",
+                "1280":"/assets/img/Galerie_7473_1280.jpg",
+                "1600":"/assets/img/Galerie_7473_1600.jpg",
+                "1920":"/assets/img/Galerie_7473_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7473_160.jpg",
+                "320":"/assets/img/Galerie_7473_320.jpg",
+                "640":"/assets/img/Galerie_7473_640.jpg",
+                "960":"/assets/img/Galerie_7473_960.jpg",
+                "1280":"/assets/img/Galerie_7473_1280.jpg",
+                "1600":"/assets/img/Galerie_7473_1600.jpg",
+                "1920":"/assets/img/Galerie_7473_1920.jpg"
               },
-              "alt":"Croix en tissu blanche et bleue avec perles nacrées."
+              "alt":"Ours réalisé au crochet."
             },
             {
               "id":22,
               "type":"oeuvre",
-              "title":"Rat allergène",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Ours 2",
+              "infos":"Ours en crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7566_160.jpg",
+                "320":"/assets/img/Galerie_7566_320.jpg",
+                "640":"/assets/img/Galerie_7566_640.jpg",
+                "960":"/assets/img/Galerie_7566_960.jpg",
+                "1280":"/assets/img/Galerie_7566_1280.jpg",
+                "1600":"/assets/img/Galerie_7566_1600.jpg",
+                "1920":"/assets/img/Galerie_7566_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7566_160.jpg",
+                "320":"/assets/img/Galerie_7566_320.jpg",
+                "640":"/assets/img/Galerie_7566_640.jpg",
+                "960":"/assets/img/Galerie_7566_960.jpg",
+                "1280":"/assets/img/Galerie_7566_1280.jpg",
+                "1600":"/assets/img/Galerie_7566_1600.jpg",
+                "1920":"/assets/img/Galerie_7566_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et verte avec perles en bois."
+              "alt":"Ours réalisé au crochet."
             },
             {
               "id":23,
               "type":"oeuvre",
-              "title":"Vautour électrique",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Ours 3",
+              "infos":"Ours en crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7571_160.jpg",
+                "320":"/assets/img/Galerie_7571_320.jpg",
+                "640":"/assets/img/Galerie_7571_640.jpg",
+                "960":"/assets/img/Galerie_7571_960.jpg",
+                "1280":"/assets/img/Galerie_7571_1280.jpg",
+                "1600":"/assets/img/Galerie_7571_1600.jpg",
+                "1920":"/assets/img/Galerie_7571_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7571_160.jpg",
+                "320":"/assets/img/Galerie_7571_320.jpg",
+                "640":"/assets/img/Galerie_7571_640.jpg",
+                "960":"/assets/img/Galerie_7571_960.jpg",
+                "1280":"/assets/img/Galerie_7571_1280.jpg",
+                "1600":"/assets/img/Galerie_7571_1600.jpg",
+                "1920":"/assets/img/Galerie_7571_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et marron avec perles métalliques."
-            }
-          ]
-        },
-        {
-          "id":96,
-          "route":"/sculptures/plumes",
-          "idRoute":"plumes",
-          "type":"groupe",
-          "title":"Plumes",
-          "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
-          },
-          "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
-          "images":[
-            {
-              "id":21,
-              "type":"oeuvre",
-              "title":"Coq cocu",
-              "infos":"Assemblage de bois et de clous.",
-              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "alt":"Croix en tissu blanche et bleue avec perles nacrées."
+              "alt":"Ours réalisé au crochet."
             },
             {
-              "id":22,
+              "id":24,
               "type":"oeuvre",
-              "title":"Canard cancaneur",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Ours 4",
+              "infos":"Ours en crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7580_160.jpg",
+                "320":"/assets/img/Galerie_7580_320.jpg",
+                "640":"/assets/img/Galerie_7580_640.jpg",
+                "960":"/assets/img/Galerie_7580_960.jpg",
+                "1280":"/assets/img/Galerie_7580_1280.jpg",
+                "1600":"/assets/img/Galerie_7580_1600.jpg",
+                "1920":"/assets/img/Galerie_7580_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7580_160.jpg",
+                "320":"/assets/img/Galerie_7580_320.jpg",
+                "640":"/assets/img/Galerie_7580_640.jpg",
+                "960":"/assets/img/Galerie_7580_960.jpg",
+                "1280":"/assets/img/Galerie_7580_1280.jpg",
+                "1600":"/assets/img/Galerie_7580_1600.jpg",
+                "1920":"/assets/img/Galerie_7580_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et verte avec perles en bois."
+              "alt":"Ours réalisé au crochet."
             },
             {
-              "id":23,
+              "id":25,
               "type":"oeuvre",
-              "title":"Pigeon pyromane",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Ours 5",
+              "infos":"Ours en crochet.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7582_160.jpg",
+                "320":"/assets/img/Galerie_7582_320.jpg",
+                "640":"/assets/img/Galerie_7582_640.jpg",
+                "960":"/assets/img/Galerie_7582_960.jpg",
+                "1280":"/assets/img/Galerie_7582_1280.jpg",
+                "1600":"/assets/img/Galerie_7582_1600.jpg",
+                "1920":"/assets/img/Galerie_7582_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/Galerie_7582_160.jpg",
+                "320":"/assets/img/Galerie_7582_320.jpg",
+                "640":"/assets/img/Galerie_7582_640.jpg",
+                "960":"/assets/img/Galerie_7582_960.jpg",
+                "1280":"/assets/img/Galerie_7582_1280.jpg",
+                "1600":"/assets/img/Galerie_7582_1600.jpg",
+                "1920":"/assets/img/Galerie_7582_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et marron avec perles métalliques."
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":26,
+              "type":"oeuvre",
+              "title":"Ours 6",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7583_160.jpg",
+                "320":"/assets/img/Galerie_7583_320.jpg",
+                "640":"/assets/img/Galerie_7583_640.jpg",
+                "960":"/assets/img/Galerie_7583_960.jpg",
+                "1280":"/assets/img/Galerie_7583_1280.jpg",
+                "1600":"/assets/img/Galerie_7583_1600.jpg",
+                "1920":"/assets/img/Galerie_7583_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7583_160.jpg",
+                "320":"/assets/img/Galerie_7583_320.jpg",
+                "640":"/assets/img/Galerie_7583_640.jpg",
+                "960":"/assets/img/Galerie_7583_960.jpg",
+                "1280":"/assets/img/Galerie_7583_1280.jpg",
+                "1600":"/assets/img/Galerie_7583_1600.jpg",
+                "1920":"/assets/img/Galerie_7583_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":27,
+              "type":"oeuvre",
+              "title":"Ours 7",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7592_160.jpg",
+                "320":"/assets/img/Galerie_7592_320.jpg",
+                "640":"/assets/img/Galerie_7592_640.jpg",
+                "960":"/assets/img/Galerie_7592_960.jpg",
+                "1280":"/assets/img/Galerie_7592_1280.jpg",
+                "1600":"/assets/img/Galerie_7592_1600.jpg",
+                "1920":"/assets/img/Galerie_7592_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7592_160.jpg",
+                "320":"/assets/img/Galerie_7592_320.jpg",
+                "640":"/assets/img/Galerie_7592_640.jpg",
+                "960":"/assets/img/Galerie_7592_960.jpg",
+                "1280":"/assets/img/Galerie_7592_1280.jpg",
+                "1600":"/assets/img/Galerie_7592_1600.jpg",
+                "1920":"/assets/img/Galerie_7592_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":28,
+              "type":"oeuvre",
+              "title":"Ours 8",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7603_160.jpg",
+                "320":"/assets/img/Galerie_7603_320.jpg",
+                "640":"/assets/img/Galerie_7603_640.jpg",
+                "960":"/assets/img/Galerie_7603_960.jpg",
+                "1280":"/assets/img/Galerie_7603_1280.jpg",
+                "1600":"/assets/img/Galerie_7603_1600.jpg",
+                "1920":"/assets/img/Galerie_7603_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7603_160.jpg",
+                "320":"/assets/img/Galerie_7603_320.jpg",
+                "640":"/assets/img/Galerie_7603_640.jpg",
+                "960":"/assets/img/Galerie_7603_960.jpg",
+                "1280":"/assets/img/Galerie_7603_1280.jpg",
+                "1600":"/assets/img/Galerie_7603_1600.jpg",
+                "1920":"/assets/img/Galerie_7603_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":29,
+              "type":"oeuvre",
+              "title":"Ours 9",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7617_160.jpg",
+                "320":"/assets/img/Galerie_7617_320.jpg",
+                "640":"/assets/img/Galerie_7617_640.jpg",
+                "960":"/assets/img/Galerie_7617_960.jpg",
+                "1280":"/assets/img/Galerie_7617_1280.jpg",
+                "1600":"/assets/img/Galerie_7617_1600.jpg",
+                "1920":"/assets/img/Galerie_7617_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7617_160.jpg",
+                "320":"/assets/img/Galerie_7617_320.jpg",
+                "640":"/assets/img/Galerie_7617_640.jpg",
+                "960":"/assets/img/Galerie_7617_960.jpg",
+                "1280":"/assets/img/Galerie_7617_1280.jpg",
+                "1600":"/assets/img/Galerie_7617_1600.jpg",
+                "1920":"/assets/img/Galerie_7617_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":30,
+              "type":"oeuvre",
+              "title":"Ours 10",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7623_160.jpg",
+                "320":"/assets/img/Galerie_7623_320.jpg",
+                "640":"/assets/img/Galerie_7623_640.jpg",
+                "960":"/assets/img/Galerie_7623_960.jpg",
+                "1280":"/assets/img/Galerie_7623_1280.jpg",
+                "1600":"/assets/img/Galerie_7623_1600.jpg",
+                "1920":"/assets/img/Galerie_7623_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7623_160.jpg",
+                "320":"/assets/img/Galerie_7623_320.jpg",
+                "640":"/assets/img/Galerie_7623_640.jpg",
+                "960":"/assets/img/Galerie_7623_960.jpg",
+                "1280":"/assets/img/Galerie_7623_1280.jpg",
+                "1600":"/assets/img/Galerie_7623_1600.jpg",
+                "1920":"/assets/img/Galerie_7623_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":31,
+              "type":"oeuvre",
+              "title":"Ours 11",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7628_160.jpg",
+                "320":"/assets/img/Galerie_7628_320.jpg",
+                "640":"/assets/img/Galerie_7628_640.jpg",
+                "960":"/assets/img/Galerie_7628_960.jpg",
+                "1280":"/assets/img/Galerie_7628_1280.jpg",
+                "1600":"/assets/img/Galerie_7628_1600.jpg",
+                "1920":"/assets/img/Galerie_7628_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7628_160.jpg",
+                "320":"/assets/img/Galerie_7628_320.jpg",
+                "640":"/assets/img/Galerie_7628_640.jpg",
+                "960":"/assets/img/Galerie_7628_960.jpg",
+                "1280":"/assets/img/Galerie_7628_1280.jpg",
+                "1600":"/assets/img/Galerie_7628_1600.jpg",
+                "1920":"/assets/img/Galerie_7628_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":32,
+              "type":"oeuvre",
+              "title":"Ours 12",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7633_160.jpg",
+                "320":"/assets/img/Galerie_7633_320.jpg",
+                "640":"/assets/img/Galerie_7633_640.jpg",
+                "960":"/assets/img/Galerie_7633_960.jpg",
+                "1280":"/assets/img/Galerie_7633_1280.jpg",
+                "1600":"/assets/img/Galerie_7633_1600.jpg",
+                "1920":"/assets/img/Galerie_7633_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7633_160.jpg",
+                "320":"/assets/img/Galerie_7633_320.jpg",
+                "640":"/assets/img/Galerie_7633_640.jpg",
+                "960":"/assets/img/Galerie_7633_960.jpg",
+                "1280":"/assets/img/Galerie_7633_1280.jpg",
+                "1600":"/assets/img/Galerie_7633_1600.jpg",
+                "1920":"/assets/img/Galerie_7633_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
+            },
+            {
+              "id":33,
+              "type":"oeuvre",
+              "title":"Ours 13",
+              "infos":"Ours en crochet.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/Galerie_7640_160.jpg",
+                "320":"/assets/img/Galerie_7640_320.jpg",
+                "640":"/assets/img/Galerie_7640_640.jpg",
+                "960":"/assets/img/Galerie_7640_960.jpg",
+                "1280":"/assets/img/Galerie_7640_1280.jpg",
+                "1600":"/assets/img/Galerie_7640_1600.jpg",
+                "1920":"/assets/img/Galerie_7640_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/Galerie_7640_160.jpg",
+                "320":"/assets/img/Galerie_7640_320.jpg",
+                "640":"/assets/img/Galerie_7640_640.jpg",
+                "960":"/assets/img/Galerie_7640_960.jpg",
+                "1280":"/assets/img/Galerie_7640_1280.jpg",
+                "1600":"/assets/img/Galerie_7640_1600.jpg",
+                "1920":"/assets/img/Galerie_7640_1920.jpg"
+              },
+              "alt":"Ours réalisé au crochet."
             }
           ]
         }
@@ -384,14 +427,15 @@
       "type":"groupe",
       "title":"Textiles",
       "thumbs":{
-          "160":"/assets/img/small/thumb_160.jpg",
-          "320":"/assets/img/small/thumb_320.jpg",
-          "640":"/assets/img/small/thumb_640.jpg",
-          "960":"/assets/img/small/thumb_960.jpg",
-          "1280":"/assets/img/small/thumb_1280.jpg",
-          "1600":"/assets/img/small/thumb_1600.jpg"
+          "160":"/assets/img/IMG_8284_160.jpg",
+          "320":"/assets/img/IMG_8284_320.jpg",
+          "640":"/assets/img/IMG_8284_640.jpg",
+          "960":"/assets/img/IMG_8284_960.jpg",
+          "1280":"/assets/img/IMG_8284_1280.jpg",
+          "1600":"/assets/img/IMG_8284_1600.jpg",
+          "1920":"/assets/img/IMG_8284_1920.jpg"
       },
-      "alt":"Bracelet en tissu représentant l'ensemble de la série des bracelets.",
+      "alt":"Bracelet en tissu représentant l'ensemble de la série des textiles.",
       "groupes": [
         {
           "id":97,
@@ -400,86 +444,873 @@
           "type":"groupe",
           "title":"Bracelets",
           "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/IMG_8284_160.jpg",
+            "320":"/assets/img/IMG_8284_320.jpg",
+            "640":"/assets/img/IMG_8284_640.jpg",
+            "960":"/assets/img/IMG_8284_960.jpg",
+            "1280":"/assets/img/IMG_8284_1280.jpg",
+            "1600":"/assets/img/IMG_8284_1600.jpg",
+            "1920":"/assets/img/IMG_8284_1920.jpg"
           },
-          "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
+          "alt":"Bracelet en tissu représentant l'ensemble de la série des bracelets.",
           "images":[
             {
               "id":31,
               "type":"oeuvre",
-              "title":"Camion aimable",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Bracelet 1",
+              "infos":"Bracelet en tissu.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8284_160.jpg",
+                "320":"/assets/img/IMG_8284_320.jpg",
+                "640":"/assets/img/IMG_8284_640.jpg",
+                "960":"/assets/img/IMG_8284_960.jpg",
+                "1280":"/assets/img/IMG_8284_1280.jpg",
+                "1600":"/assets/img/IMG_8284_1600.jpg",
+                "1920":"/assets/img/IMG_8284_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8284_160.jpg",
+                "320":"/assets/img/IMG_8284_320.jpg",
+                "640":"/assets/img/IMG_8284_640.jpg",
+                "960":"/assets/img/IMG_8284_960.jpg",
+                "1280":"/assets/img/IMG_8284_1280.jpg",
+                "1600":"/assets/img/IMG_8284_1600.jpg",
+                "1920":"/assets/img/IMG_8284_1920.jpg"
               },
-              "alt":"Croix en tissu blanche et bleue avec perles nacrées."
-            },
-            {
-              "id":32,
-              "type":"oeuvre",
-              "title":"Moto colérique",
-              "infos":"Assemblage de bois et de clous.",
-              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
-              "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
-              },
-              "alt":"Croix en tissu rouge et verte avec perles en bois."
+              "alt":"Bracelet en tissu."
             },
             {
               "id":33,
               "type":"oeuvre",
-              "title":"Avion timide",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Bracelet 3",
+              "infos":"Bracelet en tissu.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8285_160.jpg",
+                "320":"/assets/img/IMG_8285_320.jpg",
+                "640":"/assets/img/IMG_8285_640.jpg",
+                "960":"/assets/img/IMG_8285_960.jpg",
+                "1280":"/assets/img/IMG_8285_1280.jpg",
+                "1600":"/assets/img/IMG_8285_1600.jpg",
+                "1920":"/assets/img/IMG_8285_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8285_160.jpg",
+                "320":"/assets/img/IMG_8285_320.jpg",
+                "640":"/assets/img/IMG_8285_640.jpg",
+                "960":"/assets/img/IMG_8285_960.jpg",
+                "1280":"/assets/img/IMG_8285_1280.jpg",
+                "1600":"/assets/img/IMG_8285_1600.jpg",
+                "1920":"/assets/img/IMG_8285_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et marron avec perles métalliques."
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":34,
+              "type":"oeuvre",
+              "title":"Bracelet 4",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8286_160.jpg",
+                "320":"/assets/img/IMG_8286_320.jpg",
+                "640":"/assets/img/IMG_8286_640.jpg",
+                "960":"/assets/img/IMG_8286_960.jpg",
+                "1280":"/assets/img/IMG_8286_1280.jpg",
+                "1600":"/assets/img/IMG_8286_1600.jpg",
+                "1920":"/assets/img/IMG_8286_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8286_160.jpg",
+                "320":"/assets/img/IMG_8286_320.jpg",
+                "640":"/assets/img/IMG_8286_640.jpg",
+                "960":"/assets/img/IMG_8286_960.jpg",
+                "1280":"/assets/img/IMG_8286_1280.jpg",
+                "1600":"/assets/img/IMG_8286_1600.jpg",
+                "1920":"/assets/img/IMG_8286_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":35,
+              "type":"oeuvre",
+              "title":"Bracelet 5",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8287_160.jpg",
+                "320":"/assets/img/IMG_8287_320.jpg",
+                "640":"/assets/img/IMG_8287_640.jpg",
+                "960":"/assets/img/IMG_8287_960.jpg",
+                "1280":"/assets/img/IMG_8287_1280.jpg",
+                "1600":"/assets/img/IMG_8287_1600.jpg",
+                "1920":"/assets/img/IMG_8287_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8287_160.jpg",
+                "320":"/assets/img/IMG_8287_320.jpg",
+                "640":"/assets/img/IMG_8287_640.jpg",
+                "960":"/assets/img/IMG_8287_960.jpg",
+                "1280":"/assets/img/IMG_8287_1280.jpg",
+                "1600":"/assets/img/IMG_8287_1600.jpg",
+                "1920":"/assets/img/IMG_8287_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":36,
+              "type":"oeuvre",
+              "title":"Bracelet 6",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8289_160.jpg",
+                "320":"/assets/img/IMG_8289_320.jpg",
+                "640":"/assets/img/IMG_8289_640.jpg",
+                "960":"/assets/img/IMG_8289_960.jpg",
+                "1280":"/assets/img/IMG_8289_1280.jpg",
+                "1600":"/assets/img/IMG_8289_1600.jpg",
+                "1920":"/assets/img/IMG_8289_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8289_160.jpg",
+                "320":"/assets/img/IMG_8289_320.jpg",
+                "640":"/assets/img/IMG_8289_640.jpg",
+                "960":"/assets/img/IMG_8289_960.jpg",
+                "1280":"/assets/img/IMG_8289_1280.jpg",
+                "1600":"/assets/img/IMG_8289_1600.jpg",
+                "1920":"/assets/img/IMG_8289_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":37,
+              "type":"oeuvre",
+              "title":"Bracelet 7",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8290_160.jpg",
+                "320":"/assets/img/IMG_8290_320.jpg",
+                "640":"/assets/img/IMG_8290_640.jpg",
+                "960":"/assets/img/IMG_8290_960.jpg",
+                "1280":"/assets/img/IMG_8290_1280.jpg",
+                "1600":"/assets/img/IMG_8290_1600.jpg",
+                "1920":"/assets/img/IMG_8290_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8290_160.jpg",
+                "320":"/assets/img/IMG_8290_320.jpg",
+                "640":"/assets/img/IMG_8290_640.jpg",
+                "960":"/assets/img/IMG_8290_960.jpg",
+                "1280":"/assets/img/IMG_8290_1280.jpg",
+                "1600":"/assets/img/IMG_8290_1600.jpg",
+                "1920":"/assets/img/IMG_8290_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":38,
+              "type":"oeuvre",
+              "title":"Bracelet 8",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8291_160.jpg",
+                "320":"/assets/img/IMG_8291_320.jpg",
+                "640":"/assets/img/IMG_8291_640.jpg",
+                "960":"/assets/img/IMG_8291_960.jpg",
+                "1280":"/assets/img/IMG_8291_1280.jpg",
+                "1600":"/assets/img/IMG_8291_1600.jpg",
+                "1920":"/assets/img/IMG_8291_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8291_160.jpg",
+                "320":"/assets/img/IMG_8291_320.jpg",
+                "640":"/assets/img/IMG_8291_640.jpg",
+                "960":"/assets/img/IMG_8291_960.jpg",
+                "1280":"/assets/img/IMG_8291_1280.jpg",
+                "1600":"/assets/img/IMG_8291_1600.jpg",
+                "1920":"/assets/img/IMG_8291_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":39,
+              "type":"oeuvre",
+              "title":"Bracelet 9",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8292_160.jpg",
+                "320":"/assets/img/IMG_8292_320.jpg",
+                "640":"/assets/img/IMG_8292_640.jpg",
+                "960":"/assets/img/IMG_8292_960.jpg",
+                "1280":"/assets/img/IMG_8292_1280.jpg",
+                "1600":"/assets/img/IMG_8292_1600.jpg",
+                "1920":"/assets/img/IMG_8292_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8292_160.jpg",
+                "320":"/assets/img/IMG_8292_320.jpg",
+                "640":"/assets/img/IMG_8292_640.jpg",
+                "960":"/assets/img/IMG_8292_960.jpg",
+                "1280":"/assets/img/IMG_8292_1280.jpg",
+                "1600":"/assets/img/IMG_8292_1600.jpg",
+                "1920":"/assets/img/IMG_8292_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":40,
+              "type":"oeuvre",
+              "title":"Bracelet 10",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8293_160.jpg",
+                "320":"/assets/img/IMG_8293_320.jpg",
+                "640":"/assets/img/IMG_8293_640.jpg",
+                "960":"/assets/img/IMG_8293_960.jpg",
+                "1280":"/assets/img/IMG_8293_1280.jpg",
+                "1600":"/assets/img/IMG_8293_1600.jpg",
+                "1920":"/assets/img/IMG_8293_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8293_160.jpg",
+                "320":"/assets/img/IMG_8293_320.jpg",
+                "640":"/assets/img/IMG_8293_640.jpg",
+                "960":"/assets/img/IMG_8293_960.jpg",
+                "1280":"/assets/img/IMG_8293_1280.jpg",
+                "1600":"/assets/img/IMG_8293_1600.jpg",
+                "1920":"/assets/img/IMG_8293_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":41,
+              "type":"oeuvre",
+              "title":"Bracelet 11",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8295_160.jpg",
+                "320":"/assets/img/IMG_8295_320.jpg",
+                "640":"/assets/img/IMG_8295_640.jpg",
+                "960":"/assets/img/IMG_8295_960.jpg",
+                "1280":"/assets/img/IMG_8295_1280.jpg",
+                "1600":"/assets/img/IMG_8295_1600.jpg",
+                "1920":"/assets/img/IMG_8295_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8295_160.jpg",
+                "320":"/assets/img/IMG_8295_320.jpg",
+                "640":"/assets/img/IMG_8295_640.jpg",
+                "960":"/assets/img/IMG_8295_960.jpg",
+                "1280":"/assets/img/IMG_8295_1280.jpg",
+                "1600":"/assets/img/IMG_8295_1600.jpg",
+                "1920":"/assets/img/IMG_8295_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":42,
+              "type":"oeuvre",
+              "title":"Bracelet 12",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8297_160.jpg",
+                "320":"/assets/img/IMG_8297_320.jpg",
+                "640":"/assets/img/IMG_8297_640.jpg",
+                "960":"/assets/img/IMG_8297_960.jpg",
+                "1280":"/assets/img/IMG_8297_1280.jpg",
+                "1600":"/assets/img/IMG_8297_1600.jpg",
+                "1920":"/assets/img/IMG_8297_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8297_160.jpg",
+                "320":"/assets/img/IMG_8297_320.jpg",
+                "640":"/assets/img/IMG_8297_640.jpg",
+                "960":"/assets/img/IMG_8297_960.jpg",
+                "1280":"/assets/img/IMG_8297_1280.jpg",
+                "1600":"/assets/img/IMG_8297_1600.jpg",
+                "1920":"/assets/img/IMG_8297_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":43,
+              "type":"oeuvre",
+              "title":"Bracelet 13",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8298_160.jpg",
+                "320":"/assets/img/IMG_8298_320.jpg",
+                "640":"/assets/img/IMG_8298_640.jpg",
+                "960":"/assets/img/IMG_8298_960.jpg",
+                "1280":"/assets/img/IMG_8298_1280.jpg",
+                "1600":"/assets/img/IMG_8298_1600.jpg",
+                "1920":"/assets/img/IMG_8298_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8298_160.jpg",
+                "320":"/assets/img/IMG_8298_320.jpg",
+                "640":"/assets/img/IMG_8298_640.jpg",
+                "960":"/assets/img/IMG_8298_960.jpg",
+                "1280":"/assets/img/IMG_8298_1280.jpg",
+                "1600":"/assets/img/IMG_8298_1600.jpg",
+                "1920":"/assets/img/IMG_8298_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":44,
+              "type":"oeuvre",
+              "title":"Bracelet 14",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8299_160.jpg",
+                "320":"/assets/img/IMG_8299_320.jpg",
+                "640":"/assets/img/IMG_8299_640.jpg",
+                "960":"/assets/img/IMG_8299_960.jpg",
+                "1280":"/assets/img/IMG_8299_1280.jpg",
+                "1600":"/assets/img/IMG_8299_1600.jpg",
+                "1920":"/assets/img/IMG_8299_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8299_160.jpg",
+                "320":"/assets/img/IMG_8299_320.jpg",
+                "640":"/assets/img/IMG_8299_640.jpg",
+                "960":"/assets/img/IMG_8299_960.jpg",
+                "1280":"/assets/img/IMG_8299_1280.jpg",
+                "1600":"/assets/img/IMG_8299_1600.jpg",
+                "1920":"/assets/img/IMG_8299_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":45,
+              "type":"oeuvre",
+              "title":"Bracelet 15",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8300_160.jpg",
+                "320":"/assets/img/IMG_8300_320.jpg",
+                "640":"/assets/img/IMG_8300_640.jpg",
+                "960":"/assets/img/IMG_8300_960.jpg",
+                "1280":"/assets/img/IMG_8300_1280.jpg",
+                "1600":"/assets/img/IMG_8300_1600.jpg",
+                "1920":"/assets/img/IMG_8300_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8300_160.jpg",
+                "320":"/assets/img/IMG_8300_320.jpg",
+                "640":"/assets/img/IMG_8300_640.jpg",
+                "960":"/assets/img/IMG_8300_960.jpg",
+                "1280":"/assets/img/IMG_8300_1280.jpg",
+                "1600":"/assets/img/IMG_8300_1600.jpg",
+                "1920":"/assets/img/IMG_8300_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":46,
+              "type":"oeuvre",
+              "title":"Bracelet 16",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8301_160.jpg",
+                "320":"/assets/img/IMG_8301_320.jpg",
+                "640":"/assets/img/IMG_8301_640.jpg",
+                "960":"/assets/img/IMG_8301_960.jpg",
+                "1280":"/assets/img/IMG_8301_1280.jpg",
+                "1600":"/assets/img/IMG_8301_1600.jpg",
+                "1920":"/assets/img/IMG_8301_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8301_160.jpg",
+                "320":"/assets/img/IMG_8301_320.jpg",
+                "640":"/assets/img/IMG_8301_640.jpg",
+                "960":"/assets/img/IMG_8301_960.jpg",
+                "1280":"/assets/img/IMG_8301_1280.jpg",
+                "1600":"/assets/img/IMG_8301_1600.jpg",
+                "1920":"/assets/img/IMG_8301_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":47,
+              "type":"oeuvre",
+              "title":"Bracelet 17",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8302_160.jpg",
+                "320":"/assets/img/IMG_8302_320.jpg",
+                "640":"/assets/img/IMG_8302_640.jpg",
+                "960":"/assets/img/IMG_8302_960.jpg",
+                "1280":"/assets/img/IMG_8302_1280.jpg",
+                "1600":"/assets/img/IMG_8302_1600.jpg",
+                "1920":"/assets/img/IMG_8302_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8302_160.jpg",
+                "320":"/assets/img/IMG_8302_320.jpg",
+                "640":"/assets/img/IMG_8302_640.jpg",
+                "960":"/assets/img/IMG_8302_960.jpg",
+                "1280":"/assets/img/IMG_8302_1280.jpg",
+                "1600":"/assets/img/IMG_8302_1600.jpg",
+                "1920":"/assets/img/IMG_8302_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":48,
+              "type":"oeuvre",
+              "title":"Bracelet 18",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8303_160.jpg",
+                "320":"/assets/img/IMG_8303_320.jpg",
+                "640":"/assets/img/IMG_8303_640.jpg",
+                "960":"/assets/img/IMG_8303_960.jpg",
+                "1280":"/assets/img/IMG_8303_1280.jpg",
+                "1600":"/assets/img/IMG_8303_1600.jpg",
+                "1920":"/assets/img/IMG_8303_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8303_160.jpg",
+                "320":"/assets/img/IMG_8303_320.jpg",
+                "640":"/assets/img/IMG_8303_640.jpg",
+                "960":"/assets/img/IMG_8303_960.jpg",
+                "1280":"/assets/img/IMG_8303_1280.jpg",
+                "1600":"/assets/img/IMG_8303_1600.jpg",
+                "1920":"/assets/img/IMG_8303_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":49,
+              "type":"oeuvre",
+              "title":"Bracelet 19",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8304_160.jpg",
+                "320":"/assets/img/IMG_8304_320.jpg",
+                "640":"/assets/img/IMG_8304_640.jpg",
+                "960":"/assets/img/IMG_8304_960.jpg",
+                "1280":"/assets/img/IMG_8304_1280.jpg",
+                "1600":"/assets/img/IMG_8304_1600.jpg",
+                "1920":"/assets/img/IMG_8304_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8304_160.jpg",
+                "320":"/assets/img/IMG_8304_320.jpg",
+                "640":"/assets/img/IMG_8304_640.jpg",
+                "960":"/assets/img/IMG_8304_960.jpg",
+                "1280":"/assets/img/IMG_8304_1280.jpg",
+                "1600":"/assets/img/IMG_8304_1600.jpg",
+                "1920":"/assets/img/IMG_8304_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":50,
+              "type":"oeuvre",
+              "title":"Bracelet 20",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8305_160.jpg",
+                "320":"/assets/img/IMG_8305_320.jpg",
+                "640":"/assets/img/IMG_8305_640.jpg",
+                "960":"/assets/img/IMG_8305_960.jpg",
+                "1280":"/assets/img/IMG_8305_1280.jpg",
+                "1600":"/assets/img/IMG_8305_1600.jpg",
+                "1920":"/assets/img/IMG_8305_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8305_160.jpg",
+                "320":"/assets/img/IMG_8305_320.jpg",
+                "640":"/assets/img/IMG_8305_640.jpg",
+                "960":"/assets/img/IMG_8305_960.jpg",
+                "1280":"/assets/img/IMG_8305_1280.jpg",
+                "1600":"/assets/img/IMG_8305_1600.jpg",
+                "1920":"/assets/img/IMG_8305_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":51,
+              "type":"oeuvre",
+              "title":"Bracelet 21",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8306_160.jpg",
+                "320":"/assets/img/IMG_8306_320.jpg",
+                "640":"/assets/img/IMG_8306_640.jpg",
+                "960":"/assets/img/IMG_8306_960.jpg",
+                "1280":"/assets/img/IMG_8306_1280.jpg",
+                "1600":"/assets/img/IMG_8306_1600.jpg",
+                "1920":"/assets/img/IMG_8306_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8306_160.jpg",
+                "320":"/assets/img/IMG_8306_320.jpg",
+                "640":"/assets/img/IMG_8306_640.jpg",
+                "960":"/assets/img/IMG_8306_960.jpg",
+                "1280":"/assets/img/IMG_8306_1280.jpg",
+                "1600":"/assets/img/IMG_8306_1600.jpg",
+                "1920":"/assets/img/IMG_8306_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":52,
+              "type":"oeuvre",
+              "title":"Bracelet 22",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8307_160.jpg",
+                "320":"/assets/img/IMG_8307_320.jpg",
+                "640":"/assets/img/IMG_8307_640.jpg",
+                "960":"/assets/img/IMG_8307_960.jpg",
+                "1280":"/assets/img/IMG_8307_1280.jpg",
+                "1600":"/assets/img/IMG_8307_1600.jpg",
+                "1920":"/assets/img/IMG_8307_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8307_160.jpg",
+                "320":"/assets/img/IMG_8307_320.jpg",
+                "640":"/assets/img/IMG_8307_640.jpg",
+                "960":"/assets/img/IMG_8307_960.jpg",
+                "1280":"/assets/img/IMG_8307_1280.jpg",
+                "1600":"/assets/img/IMG_8307_1600.jpg",
+                "1920":"/assets/img/IMG_8307_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":53,
+              "type":"oeuvre",
+              "title":"Bracelet 23",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8308_160.jpg",
+                "320":"/assets/img/IMG_8308_320.jpg",
+                "640":"/assets/img/IMG_8308_640.jpg",
+                "960":"/assets/img/IMG_8308_960.jpg",
+                "1280":"/assets/img/IMG_8308_1280.jpg",
+                "1600":"/assets/img/IMG_8308_1600.jpg",
+                "1920":"/assets/img/IMG_8308_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8308_160.jpg",
+                "320":"/assets/img/IMG_8308_320.jpg",
+                "640":"/assets/img/IMG_8308_640.jpg",
+                "960":"/assets/img/IMG_8308_960.jpg",
+                "1280":"/assets/img/IMG_8308_1280.jpg",
+                "1600":"/assets/img/IMG_8308_1600.jpg",
+                "1920":"/assets/img/IMG_8308_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":54,
+              "type":"oeuvre",
+              "title":"Bracelet 24",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8309_160.jpg",
+                "320":"/assets/img/IMG_8309_320.jpg",
+                "640":"/assets/img/IMG_8309_640.jpg",
+                "960":"/assets/img/IMG_8309_960.jpg",
+                "1280":"/assets/img/IMG_8309_1280.jpg",
+                "1600":"/assets/img/IMG_8309_1600.jpg",
+                "1920":"/assets/img/IMG_8309_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8309_160.jpg",
+                "320":"/assets/img/IMG_8309_320.jpg",
+                "640":"/assets/img/IMG_8309_640.jpg",
+                "960":"/assets/img/IMG_8309_960.jpg",
+                "1280":"/assets/img/IMG_8309_1280.jpg",
+                "1600":"/assets/img/IMG_8309_1600.jpg",
+                "1920":"/assets/img/IMG_8309_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":55,
+              "type":"oeuvre",
+              "title":"Bracelet 25",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8310_160.jpg",
+                "320":"/assets/img/IMG_8310_320.jpg",
+                "640":"/assets/img/IMG_8310_640.jpg",
+                "960":"/assets/img/IMG_8310_960.jpg",
+                "1280":"/assets/img/IMG_8310_1280.jpg",
+                "1600":"/assets/img/IMG_8310_1600.jpg",
+                "1920":"/assets/img/IMG_8310_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8310_160.jpg",
+                "320":"/assets/img/IMG_8310_320.jpg",
+                "640":"/assets/img/IMG_8310_640.jpg",
+                "960":"/assets/img/IMG_8310_960.jpg",
+                "1280":"/assets/img/IMG_8310_1280.jpg",
+                "1600":"/assets/img/IMG_8310_1600.jpg",
+                "1920":"/assets/img/IMG_8310_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":56,
+              "type":"oeuvre",
+              "title":"Bracelet 26",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8311_160.jpg",
+                "320":"/assets/img/IMG_8311_320.jpg",
+                "640":"/assets/img/IMG_8311_640.jpg",
+                "960":"/assets/img/IMG_8311_960.jpg",
+                "1280":"/assets/img/IMG_8311_1280.jpg",
+                "1600":"/assets/img/IMG_8311_1600.jpg",
+                "1920":"/assets/img/IMG_8311_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8311_160.jpg",
+                "320":"/assets/img/IMG_8311_320.jpg",
+                "640":"/assets/img/IMG_8311_640.jpg",
+                "960":"/assets/img/IMG_8311_960.jpg",
+                "1280":"/assets/img/IMG_8311_1280.jpg",
+                "1600":"/assets/img/IMG_8311_1600.jpg",
+                "1920":"/assets/img/IMG_8311_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":57,
+              "type":"oeuvre",
+              "title":"Bracelet 27",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8312_160.jpg",
+                "320":"/assets/img/IMG_8312_320.jpg",
+                "640":"/assets/img/IMG_8312_640.jpg",
+                "960":"/assets/img/IMG_8312_960.jpg",
+                "1280":"/assets/img/IMG_8312_1280.jpg",
+                "1600":"/assets/img/IMG_8312_1600.jpg",
+                "1920":"/assets/img/IMG_8312_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8312_160.jpg",
+                "320":"/assets/img/IMG_8312_320.jpg",
+                "640":"/assets/img/IMG_8312_640.jpg",
+                "960":"/assets/img/IMG_8312_960.jpg",
+                "1280":"/assets/img/IMG_8312_1280.jpg",
+                "1600":"/assets/img/IMG_8312_1600.jpg",
+                "1920":"/assets/img/IMG_8312_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":58,
+              "type":"oeuvre",
+              "title":"Bracelet 28",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8313_160.jpg",
+                "320":"/assets/img/IMG_8313_320.jpg",
+                "640":"/assets/img/IMG_8313_640.jpg",
+                "960":"/assets/img/IMG_8313_960.jpg",
+                "1280":"/assets/img/IMG_8313_1280.jpg",
+                "1600":"/assets/img/IMG_8313_1600.jpg",
+                "1920":"/assets/img/IMG_8313_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8313_160.jpg",
+                "320":"/assets/img/IMG_8313_320.jpg",
+                "640":"/assets/img/IMG_8313_640.jpg",
+                "960":"/assets/img/IMG_8313_960.jpg",
+                "1280":"/assets/img/IMG_8313_1280.jpg",
+                "1600":"/assets/img/IMG_8313_1600.jpg",
+                "1920":"/assets/img/IMG_8313_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":59,
+              "type":"oeuvre",
+              "title":"Bracelet 29",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8314_160.jpg",
+                "320":"/assets/img/IMG_8314_320.jpg",
+                "640":"/assets/img/IMG_8314_640.jpg",
+                "960":"/assets/img/IMG_8314_960.jpg",
+                "1280":"/assets/img/IMG_8314_1280.jpg",
+                "1600":"/assets/img/IMG_8314_1600.jpg",
+                "1920":"/assets/img/IMG_8314_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8314_160.jpg",
+                "320":"/assets/img/IMG_8314_320.jpg",
+                "640":"/assets/img/IMG_8314_640.jpg",
+                "960":"/assets/img/IMG_8314_960.jpg",
+                "1280":"/assets/img/IMG_8314_1280.jpg",
+                "1600":"/assets/img/IMG_8314_1600.jpg",
+                "1920":"/assets/img/IMG_8314_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":60,
+              "type":"oeuvre",
+              "title":"Bracelet 30",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8315_160.jpg",
+                "320":"/assets/img/IMG_8315_320.jpg",
+                "640":"/assets/img/IMG_8315_640.jpg",
+                "960":"/assets/img/IMG_8315_960.jpg",
+                "1280":"/assets/img/IMG_8315_1280.jpg",
+                "1600":"/assets/img/IMG_8315_1600.jpg",
+                "1920":"/assets/img/IMG_8315_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8315_160.jpg",
+                "320":"/assets/img/IMG_8315_320.jpg",
+                "640":"/assets/img/IMG_8315_640.jpg",
+                "960":"/assets/img/IMG_8315_960.jpg",
+                "1280":"/assets/img/IMG_8315_1280.jpg",
+                "1600":"/assets/img/IMG_8315_1600.jpg",
+                "1920":"/assets/img/IMG_8315_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":61,
+              "type":"oeuvre",
+              "title":"Bracelet 31",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8316_160.jpg",
+                "320":"/assets/img/IMG_8316_320.jpg",
+                "640":"/assets/img/IMG_8316_640.jpg",
+                "960":"/assets/img/IMG_8316_960.jpg",
+                "1280":"/assets/img/IMG_8316_1280.jpg",
+                "1600":"/assets/img/IMG_8316_1600.jpg",
+                "1920":"/assets/img/IMG_8316_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8316_160.jpg",
+                "320":"/assets/img/IMG_8316_320.jpg",
+                "640":"/assets/img/IMG_8316_640.jpg",
+                "960":"/assets/img/IMG_8316_960.jpg",
+                "1280":"/assets/img/IMG_8316_1280.jpg",
+                "1600":"/assets/img/IMG_8316_1600.jpg",
+                "1920":"/assets/img/IMG_8316_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":62,
+              "type":"oeuvre",
+              "title":"Bracelet 32",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8317_160.jpg",
+                "320":"/assets/img/IMG_8317_320.jpg",
+                "640":"/assets/img/IMG_8317_640.jpg",
+                "960":"/assets/img/IMG_8317_960.jpg",
+                "1280":"/assets/img/IMG_8317_1280.jpg",
+                "1600":"/assets/img/IMG_8317_1600.jpg",
+                "1920":"/assets/img/IMG_8317_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8317_160.jpg",
+                "320":"/assets/img/IMG_8317_320.jpg",
+                "640":"/assets/img/IMG_8317_640.jpg",
+                "960":"/assets/img/IMG_8317_960.jpg",
+                "1280":"/assets/img/IMG_8317_1280.jpg",
+                "1600":"/assets/img/IMG_8317_1600.jpg",
+                "1920":"/assets/img/IMG_8317_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":63,
+              "type":"oeuvre",
+              "title":"Bracelet 33",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8318_160.jpg",
+                "320":"/assets/img/IMG_8318_320.jpg",
+                "640":"/assets/img/IMG_8318_640.jpg",
+                "960":"/assets/img/IMG_8318_960.jpg",
+                "1280":"/assets/img/IMG_8318_1280.jpg",
+                "1600":"/assets/img/IMG_8318_1600.jpg",
+                "1920":"/assets/img/IMG_8318_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8318_160.jpg",
+                "320":"/assets/img/IMG_8318_320.jpg",
+                "640":"/assets/img/IMG_8318_640.jpg",
+                "960":"/assets/img/IMG_8318_960.jpg",
+                "1280":"/assets/img/IMG_8318_1280.jpg",
+                "1600":"/assets/img/IMG_8318_1600.jpg",
+                "1920":"/assets/img/IMG_8318_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
+            },
+            {
+              "id":64,
+              "type":"oeuvre",
+              "title":"Bracelet 34",
+              "infos":"Bracelet en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8319_160.jpg",
+                "320":"/assets/img/IMG_8319_320.jpg",
+                "640":"/assets/img/IMG_8319_640.jpg",
+                "960":"/assets/img/IMG_8319_960.jpg",
+                "1280":"/assets/img/IMG_8319_1280.jpg",
+                "1600":"/assets/img/IMG_8319_1600.jpg",
+                "1920":"/assets/img/IMG_8319_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8319_160.jpg",
+                "320":"/assets/img/IMG_8319_320.jpg",
+                "640":"/assets/img/IMG_8319_640.jpg",
+                "960":"/assets/img/IMG_8319_960.jpg",
+                "1280":"/assets/img/IMG_8319_1280.jpg",
+                "1600":"/assets/img/IMG_8319_1600.jpg",
+                "1920":"/assets/img/IMG_8319_1920.jpg"
+              },
+              "alt":"Bracelet en tissu."
             }
           ]
         },
@@ -490,86 +1321,119 @@
           "type":"groupe",
           "title":"Croix",
           "thumbs":{
-            "160":"/assets/img/small/thumb_160.jpg",
-            "320":"/assets/img/small/thumb_320.jpg",
-            "640":"/assets/img/small/thumb_640.jpg",
-            "960":"/assets/img/small/thumb_960.jpg",
-            "1280":"/assets/img/small/thumb_1280.jpg",
-            "1600":"/assets/img/small/thumb_1600.jpg"
+            "160":"/assets/img/IMG_8321_160.jpg",
+            "320":"/assets/img/IMG_8321_320.jpg",
+            "640":"/assets/img/IMG_8321_640.jpg",
+            "960":"/assets/img/IMG_8321_960.jpg",
+            "1280":"/assets/img/IMG_8321_1280.jpg",
+            "1600":"/assets/img/IMG_8321_1600.jpg",
+            "1920":"/assets/img/IMG_8321_1920.jpg"
           },
-          "alt":"Poupée tricotée représentant l'ensemble de la série des poupées.",
+          "alt":"Croix réalisée en textile reprsentant le groupe des croix.",
           "images":[
             {
-              "id":31,
+              "id":11,
               "type":"oeuvre",
-              "title":"Voiture vulgaire",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Croix 11",
+              "infos":"Croix en tissu.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8321_160.jpg",
+                "320":"/assets/img/IMG_8321_320.jpg",
+                "640":"/assets/img/IMG_8321_640.jpg",
+                "960":"/assets/img/IMG_8321_960.jpg",
+                "1280":"/assets/img/IMG_8321_1280.jpg",
+                "1600":"/assets/img/IMG_8321_1600.jpg",
+                "1920":"/assets/img/IMG_8321_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8321_160.jpg",
+                "320":"/assets/img/IMG_8321_320.jpg",
+                "640":"/assets/img/IMG_8321_640.jpg",
+                "960":"/assets/img/IMG_8321_960.jpg",
+                "1280":"/assets/img/IMG_8321_1280.jpg",
+                "1600":"/assets/img/IMG_8321_1600.jpg",
+                "1920":"/assets/img/IMG_8321_1920.jpg"
               },
-              "alt":"Croix en tissu blanche et bleue avec perles nacrées."
+              "alt":"Croix en tissu."
             },
             {
-              "id":32,
+              "id":12,
               "type":"oeuvre",
-              "title":"Hélicoptère élitiste",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Croix 12",
+              "infos":"Croix en tissu.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8323_160.jpg",
+                "320":"/assets/img/IMG_8323_320.jpg",
+                "640":"/assets/img/IMG_8323_640.jpg",
+                "960":"/assets/img/IMG_8323_960.jpg",
+                "1280":"/assets/img/IMG_8323_1280.jpg",
+                "1600":"/assets/img/IMG_8323_1600.jpg",
+                "1920":"/assets/img/IMG_8323_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8323_160.jpg",
+                "320":"/assets/img/IMG_8323_320.jpg",
+                "640":"/assets/img/IMG_8323_640.jpg",
+                "960":"/assets/img/IMG_8323_960.jpg",
+                "1280":"/assets/img/IMG_8323_1280.jpg",
+                "1600":"/assets/img/IMG_8323_1600.jpg",
+                "1920":"/assets/img/IMG_8323_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et verte avec perles en bois."
+              "alt":"Croix en tissu."
             },
             {
-              "id":33,
+              "id":13,
               "type":"oeuvre",
-              "title":"Bateau barbant",
-              "infos":"Assemblage de bois et de clous.",
+              "title":"Croix 13",
+              "infos":"Croix en tissu.",
               "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
               "thumbs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8325_160.jpg",
+                "320":"/assets/img/IMG_8325_320.jpg",
+                "640":"/assets/img/IMG_8325_640.jpg",
+                "960":"/assets/img/IMG_8325_960.jpg",
+                "1280":"/assets/img/IMG_8325_1280.jpg",
+                "1600":"/assets/img/IMG_8325_1600.jpg",
+                "1920":"/assets/img/IMG_8325_1920.jpg"
               },
               "imgs":{
-                "160":"/assets/img/small/thumb_160.jpg",
-                "320":"/assets/img/small/thumb_320.jpg",
-                "640":"/assets/img/small/thumb_640.jpg",
-                "960":"/assets/img/small/thumb_960.jpg",
-                "1280":"/assets/img/small/thumb_1280.jpg",
-                "1600":"/assets/img/small/thumb_1600.jpg"
+                "160":"/assets/img/IMG_8325_160.jpg",
+                "320":"/assets/img/IMG_8325_320.jpg",
+                "640":"/assets/img/IMG_8325_640.jpg",
+                "960":"/assets/img/IMG_8325_960.jpg",
+                "1280":"/assets/img/IMG_8325_1280.jpg",
+                "1600":"/assets/img/IMG_8325_1600.jpg",
+                "1920":"/assets/img/IMG_8325_1920.jpg"
               },
-              "alt":"Croix en tissu rouge et marron avec perles métalliques."
+              "alt":"Croix en tissu."
+            },
+            {
+              "id":14,
+              "type":"oeuvre",
+              "title":"Croix 14",
+              "infos":"Croix en tissu.",
+              "dimensions":"Largeur : 130cm, longueur : 100 cm, hauteur : 80 cm",
+              "thumbs":{
+                "160":"/assets/img/IMG_8329_160.jpg",
+                "320":"/assets/img/IMG_8329_320.jpg",
+                "640":"/assets/img/IMG_8329_640.jpg",
+                "960":"/assets/img/IMG_8329_960.jpg",
+                "1280":"/assets/img/IMG_8329_1280.jpg",
+                "1600":"/assets/img/IMG_8329_1600.jpg",
+                "1920":"/assets/img/IMG_8329_1920.jpg"
+              },
+              "imgs":{
+                "160":"/assets/img/IMG_8329_160.jpg",
+                "320":"/assets/img/IMG_8329_320.jpg",
+                "640":"/assets/img/IMG_8329_640.jpg",
+                "960":"/assets/img/IMG_8329_960.jpg",
+                "1280":"/assets/img/IMG_8329_1280.jpg",
+                "1600":"/assets/img/IMG_8329_1600.jpg",
+                "1920":"/assets/img/IMG_8329_1920.jpg"
+              },
+              "alt":"Croix en tissu."
             }
           ]
         }

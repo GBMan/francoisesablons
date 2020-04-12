@@ -11,8 +11,9 @@
     color: $clear;
     margin-left: -3px;
     margin-right: -3px;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 2px 5px;
+    // padding-left: 3px;
+    // padding-right: 3px;
     &:hover {
         background-color: $second;
     }

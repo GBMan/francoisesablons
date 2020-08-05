@@ -12,8 +12,6 @@
     margin-left: -3px;
     margin-right: -3px;
     padding: 2px 5px;
-    // padding-left: 3px;
-    // padding-right: 3px;
     &:hover {
         background-color: $second;
     }
@@ -28,7 +26,6 @@
     overflow: hidden;
     &:hover {
         .btn--img {
-            background-color: $second;
             transform:scale(1.2);
         }
     }
@@ -36,7 +33,6 @@
 .btn--img {
     display: block;
     height: 100%;
-    // transform:scale(1);
     transition: transform 0.2s;
     width: 100%;
 }

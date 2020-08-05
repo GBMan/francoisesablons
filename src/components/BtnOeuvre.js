@@ -39,6 +39,7 @@ export default function BtnOeuvre(props) {
                 alt={alt} 
                 onClick={(event) => {return onClickImg(position, event);}} 
             />
+            <div className="btn--img-container-description">XXX</div>
         </div>
     )
 }

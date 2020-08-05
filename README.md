@@ -28,6 +28,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Git
+### First time
 `git add *`
 Add the new files and modifications.
 
@@ -39,6 +40,17 @@ Prepare the package to send with a description.
 
 `git push -u origin master`
 Push the datas on git.
+
+### Next times
+`git add *`
+Add the new files and modifications.
+
+`git commit -m "Message."`
+Prepare the package to send with a description.
+
+`git push`
+Push the datas on git.
+
 
 ## Fonts
 Pictos gets on http://glyphter.com

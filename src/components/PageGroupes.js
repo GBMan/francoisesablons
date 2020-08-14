@@ -1,7 +1,6 @@
-import React, { useContext } from 'react';
-import { CatalogueContext } from './App';
+import React from 'react';
 import BtnGroupe from './BtnGroupe';
-import BtnOeuvre from './BtnOeuvre';
+import PageOeuvres from './PageOeuvres';
 import {
   Route,
   Switch,
@@ -11,16 +10,42 @@ import {
 import datasHolder from '../DatasHolder';
 
 export default function PageGroupes() {
-  console.log("### PageGroupes");
-  
-  const { handleOpenGalerie } = useContext(CatalogueContext);
   const { url } = useRouteMatch();
   const datas = datasHolder.getDatasFromRoute(url);
   const railRoad = datasHolder.getRailRoadFromRoute(url);
 
-  function handleClickImg(id) {
-    handleOpenGalerie(id, datas);
+  let page
+
+  if (datas && datas[0].type === "groupe") {
+    page = <section className="page page-groupes">
+      <h2 className="page-groupes--title">
+        {railRoad.map((step, i) => {
+          return (
+            <React.Fragment key={i}>
+              {(i > 0) && <span> / </span>}
+              <Link to={step.route} className="btn ">{step.title}</Link>
+            </React.Fragment>
+          )})
+        }
+      </h2>
+      <div className="page-groupes--container">
+        {datas.map((groupe, i) => {
+            return (
+              <BtnGroupe
+                key={i}
+                {...groupe}
+              />
+            )
+          })
+        }
+      </div>
+    </section>;
   }
+  else if (datas && datas[0].type === "oeuvre") {
+    page = <PageOeuvres />
+  }
+
+
   if (!datas) return (<></>);
   return (
     <>
@@ -29,43 +54,7 @@ export default function PageGroupes() {
           <PageGroupes />
         </Route>
         <Route path={`${url}`}>
-          <section className="page page-groupes">
-            <h2 className="page-groupes--title">
-              {railRoad.map((step, i) => {
-                return (
-                  <React.Fragment key={i}>
-                    {(i > 0) && <span> / </span>}
-                    <Link to={step.route} className="btn ">{step.title}</Link>
-                  </React.Fragment>
-                )})
-              }
-            </h2>
-            <div className="page-groupes--container">
-              {(datas[0].type === "groupe") &&
-                datas.map((groupe, i) => {
-                  return (
-                    <BtnGroupe
-                      key={i}
-                      {...groupe}
-                    />
-                  )
-                })
-              }
-              {(datas[0].type === "oeuvre") &&
-                datas.map((oeuvre, i) => {
-                  return (
-                    <BtnOeuvre
-                      key={i}
-                      position={i}
-                      {...oeuvre}
-                      handleClickImg={handleClickImg}
-                      cssClass="btn--groupe-img-container"
-                    />
-                  )
-                })
-              }
-            </div>
-          </section>
+          {page}
         </Route>
       </Switch>
     </>

@@ -8,13 +8,15 @@
 .page-home--element {
     display:block;
 }
-
+:root {
+    --ligne:3;
+}
 .btn--categorie {
     color: $main;
     display:grid;
     font-weight: bold;
     grid-template-columns: min-content auto;
-    height: calc((100vh - 110px) / 2);
+    height: calc((100vh - 110px) / var(--ligne));
     transition: background-color 0.2s;
     &:focus,
     &:hover {
@@ -24,7 +26,7 @@
             transform:scale(1.2);
         }
         .btn--categorie-img {
-            width: calc((100vh - 110px) / 2);
+            width: calc((100vh - 110px) / var(--ligne));
         }
         .btn--categorie-txt {
             color: $clear;

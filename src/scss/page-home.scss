@@ -16,7 +16,7 @@
     display:grid;
     font-weight: bold;
     grid-template-columns: min-content auto;
-    height: calc((100vh - 110px) / var(--ligne));
+    height: calc((100vh - 120px) / var(--ligne));
     transition: background-color 0.2s;
     &:focus,
     &:hover {
@@ -26,7 +26,7 @@
             transform:scale(1.2);
         }
         .btn--categorie-img {
-            width: calc((100vh - 110px) / var(--ligne));
+            width: calc((100vh - 120px) / var(--ligne));
         }
         .btn--categorie-txt {
             color: $clear;
@@ -37,7 +37,7 @@
 .btn--categorie-img {
     max-width: 50vw;
     transition: width 0.2s;
-    width: calc((100vh - 110px) / 6);
+    width: calc((100vh - 120px) / 6);
     &.btn--img-container {
         transition: transform 0.2s, width 0.2s;
     }
